@@ -1,0 +1,3907 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://www.osteriasalvatore.com/tr/gallery#&gid=1634329090&pid=17 -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="tr" class="pointer skrollr skrollr-desktop"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style id="customRules"></style><script async="" src="./resim25_files/sp-2.0.0-dm-0.1.min.js.indir"></script><script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        AjaxContainer: 'div.dmBody',
+        WrappingContainer: 'div.dmOuter',
+        HomeUrl: 'https://www.osteriasalvatore.com/',
+        AccountUUID: '56bb1eabfff64dbc8ded97c115e323ed',
+        SystemID: 'US_DIRECT_PRODUCTION',
+        SiteAlias: '2bbfe30e',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Wed May 24 16:56:28 UTC 2023',
+        ExternalUid: null,
+        IsSiteMultilingual: true,
+        InitialPostAlias: '',
+        InitialDynamicItem: '',
+        DynamicPageInfo: {
+            isDynamicPage: false,
+            base64JsonRowData: 'null',
+        },
+        InitialPageAlias: 'tr/gallery',
+        InitialPageUuid: 'cdc0b458cdba40e4819f93423dd0069c',
+        InitialEncodedPageAlias: 'dHIvZ2FsbGVyeQ==',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: false,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '9865',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID: null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        StorePageAlias: 'null',
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        IsStoreSuspended: false,
+        NotificationSubDomain: 'osteriasalvatore',
+        HasCustomDomain: true,
+        showCookieNotification: false,
+        cookiesNotificationMarkup: 'null',
+        translatedPageUrl: '/tr/gallery',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: 'tr',
+        currentLocale: 'tr',
+        NavItems: '{}',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: -1,
+            NavbarLiveHomePage: 'https://www.osteriasalvatore.com/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: false,
+        planID: '7',
+        customTemplateId: 'null',
+        siteTemplateId: 'null',
+        productId: 'DM_DIRECT',
+        disableTracking: false,
+        pageType: 'FROM_SCRATCH',
+        isRuntimeServer: true,
+        isInEditor: false,
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- Inject secured cdn script -->
+
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function (global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function () {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=3';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log(
+                            'ServiceWorker registration successful with scope: ',
+                            registration.scope
+                        );
+                    },
+                    function (err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function (err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function () {
+            var refreshing;
+            return function () {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function (resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<!-- End PWA settings -->
+
+
+
+
+
+<link rel="canonical" href="https://www.osteriasalvatore.com/tr/gallery">
+
+<meta id="view" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!--Add favorites icons-->
+
+<link rel="icon" type="image/x-icon" href="https://irp.cdn-website.com/2bbfe30e/site_favicon_16_1670499285284.ico">
+
+<!-- End favorite icons -->
+
+<link rel="preconnect" href="https://lirp.cdn-website.com/" crossorigin="">
+
+
+
+<!-- render the required CSS and JS in the head section -->
+<script>
+    window.SystemID = 'US_DIRECT_PRODUCTION';
+
+    if(!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function() {
+            },
+            getCurrentDeviceType: function() {
+                return window._currentDevice;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+</script>
+<!-- loadCSS function -->
+<script>
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+
+  function checkCss() {
+    if (cssLinks && cssLinks.runtime && cssLinks.global) {
+      loadCssLink(cssLinks.runtime);
+      loadCssLink(cssLinks.global);
+      cssLinks = null;
+    }
+  }
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      /* Never fail - this is just a tool for measurements */
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+<script data-role="deferred-init" type="text/javascript">
+    /* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
+    function Def(){this.promise=new Promise((function(a,b){this.resolve=a,this.reject=b}).bind(this))}
+    const defs={};
+    window.getDeferred=function(a){return null==defs[a]&&(defs[a]=new Def),defs[a]}
+    window.waitForDeferred = function (b, a, c) {
+      let d = window?.getDeferred?.(b);
+      d
+        ? d.promise.then(a)
+        : c && ["complete", "interactive"].includes(document.readyState)
+        ? setTimeout(a, 1)
+        : c
+        ? document.addEventListener("DOMContentLoaded", a)
+        : console.error(`Deferred  does not exist`);
+    };
+</script>
+<style id="forceCssIncludes">
+    /* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}
+</style>
+<style id="cssVariables" type="text/css">
+    
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- loadCSS function -->
+<script>
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+
+  function checkCss() {
+    if (cssLinks && cssLinks.runtime && cssLinks.global) {
+      loadCssLink(cssLinks.runtime);
+      loadCssLink(cssLinks.global);
+      cssLinks = null;
+    }
+  }
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      /* Never fail - this is just a tool for measurements */
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+<link type="text/css" rel="stylesheet" href="./resim25_files/css">
+
+<style>
+@font-face {
+  font-family: "BeautyDemo";
+  src: url("https://irp.cdn-website.com/2bbfe30e/fonts/BeautyDemo-f40e_400.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+</style>
+
+
+
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-structured-global-->
+<link rel="stylesheet" type="text/css" href="./resim25_files/d-css-runtime-desktop-one-package-structured-global.min.css">
+
+<!-- End of RT CSS Include -->
+
+
+<link type="text/css" rel="stylesheet" href="./resim25_files/3d7a18959b5fca62da7ce9b3ab9983e2.css" id="widgetCSS">
+
+
+<!-- Support `img` size attributes -->
+<style>img[width][height] {
+  height: auto;
+}</style>
+
+<!-- Support showing sticky element on page only -->
+<style>
+  body[data-page-alias="tr/gallery"] #dm [data-show-on-page-only="tr/gallery"] {
+    display: block !important;
+  }
+</style>
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="./resim25_files/2bbfe30e_tr_header_1.min.css" id="siteGlobalCss">
+
+
+
+<style id="customWidgetStyle" type="text/css">
+    
+    .widget-5bd886 .full {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.widget-5bd886 .iconBg {
+   display: block !important;
+   width: 100px;
+}
+
+.widget-5bd886 < .iconBg {
+   width: 66px;
+}
+
+.widget-5bd886 .whatsapp-fill { /* default color */
+   fill: currentColor;
+}
+
+.widget-5bd886 .wa-btn-transparent {
+    background: rgba(0,0,0,0) !important;
+    border-color: rgba(0,0,0,0) !important;
+    box-shadow: none !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.widget-5bd886 a {
+    padding: 0 !important;
+}
+
+.widget-5bd886 .green-wa {
+    flex: 1;
+    height: 80%;
+}
+
+.widget-5bd886 .green-wa img {
+    height: 100%;
+}
+
+.widget-5bd886 .wa-btns {
+    margin: 0 !important;
+}
+
+.widget-5bd886 .flex-text {
+    flex: 3;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    text-align: left;
+}
+    
+    .widget-5bd886 {
+    /*overflow: hidden;*/
+    margin: 10px auto;
+    width: 278px;
+}
+    
+    .widget-1f5975 .copyright {
+    font-size: 13px;
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+}
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+
+<style id="additionalGlobalCss" type="text/css">
+</style>
+
+<style id="pagestyle" type="text/css">
+    *#dm *.dmBody a.span.textonly{
+color:rgb(255,255,255) !important}
+*#dm *.dmBody div.dmform-error{
+font-style:normal !important}
+*#dm *.dmBody div.dmforminput textarea{
+font-style:italic !important}
+*#dm *.dmBody div.dmforminput *.fileUploadLink{
+font-style:italic !important}
+*#dm *.dmBody div.checkboxwrapper span{
+font-style:italic !important}
+*#dm *.dmBody div.radiowrapper span{
+font-style:italic !important}
+*#dm *.dmBody nav.u_1144820115{
+color:black !important}
+.u_1096181899{
+}
+*#dm *.dmBody *.u_1404776675{
+width:100% !important}
+*#dm *.dmBody *.u_1634329090 .caption-inner{
+border-bottom-left-radius:0 !important;
+-webkit-border-top-right-radius:0 !important;
+-moz-border-top-right-radius:0 !important;
+-webkit-border-bottom-right-radius:0 !important;
+-webkit-border-bottom-left-radius:0 !important;
+border-top-right-radius:0 !important;
+-webkit-border-top-left-radius:0 !important;
+border-radius:0 !important;
+-moz-border-bottom-right-radius:0 !important;
+-moz-border-top-left-radius:0 !important;
+border-top-left-radius:0 !important;
+-moz-border-radius:0 !important;
+-moz-border-bottom-left-radius:0 !important;
+border-bottom-right-radius:0 !important;
+-webkit-border-radius:0 !important}
+</style>
+
+<style id="pagestyleDevice" type="text/css">
+    *#dm *.d-page-1716942098 DIV.dmInner{
+background-repeat:no-repeat !important;
+background-size:cover !important;
+background-attachment:fixed !important;
+background-position:50% 50% !important}
+*#dm *.d-page-1716942098 DIV#dmSlideRightNavRight{
+background-repeat:no-repeat !important;
+background-image:none !important;
+background-size:cover !important;
+background-attachment:fixed !important;
+background-position:50% 50% !important}
+*#dm *.dmBody *.u_1634329090 .photoGalleryThumbs{
+padding:5.5px !important}
+*#dm *.dmBody *.u_1634329090 .layout-container{
+padding:5.5px !important}
+*#dm *.dmBody *.u_1634329090 .photoGalleryViewAll{
+padding:0 11px !important}
+</style>
+
+<!-- Flex Sections CSS -->
+
+ <style id="grid-styles-desktop-6391c6623432d6768929eabc" data-page-uuid="cdc0b458cdba40e4819f93423dd0069c">@media all {
+    
+#\36 391c6623432d6768929eac0::before, #\36 391c6623432d6768929eac0 > .bgExtraLayerOverlay {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(45,46,50,1);
+    opacity: 0.5;
+    border-radius: inherit;
+}
+#\36 391c6623432d6768929eac0 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-columns: minmax(0px, 1fr);
+    grid-template-rows: minmax(8px, max-content);
+    display: grid;
+    justify-content: start;
+    background-position: 50% 50%;
+    align-items: start;
+    position: relative;
+    background-image: url("https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore14-2880w.jpg");
+}
+    
+#\36 391c6623432d6768929eac1 {
+    position: relative;
+    width: 19.52%;
+    height: 189px;
+    min-width: 10px;
+    min-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 100%;
+    align-self: center;
+}
+    
+#\36 391c6623432d6768929eabe {
+    align-self: stretch;
+    padding-top: 16px;
+    background-size: cover;
+    display: flex;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    min-height: 8px;
+    background-position: 50% 50%;
+    margin-right: 0%;
+    margin-left: 0%;
+    column-gap: 4%;
+    row-gap: 24px;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0px;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0px;
+    min-width: 4%;
+    padding-right: 16px;
+}
+    
+#\36 391c6623432d6768929eabf {
+    align-self: start;
+    background-size: cover;
+    padding-left: 0px;
+    min-height: 600px;
+    grid-row-start: 1;
+    margin-left: 0%;
+    background-repeat: no-repeat;
+    flex-direction: row;
+    margin-top: 0px;
+    grid-column-end: span 1;
+    order: 0;
+    padding-top: 120px;
+    grid-column-start: 1;
+    display: flex;
+    padding-bottom: 120px;
+    background-position: 50% 50%;
+    margin-right: 0%;
+    column-gap: 4%;
+    row-gap: 24px;
+    max-width: 1200px;
+    grid-row-end: span 1;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0px;
+    justify-self: center;
+    padding-right: 0px;
+}
+    
+#\36 391c6623432d6768929eabd {
+    margin-right: 0%;
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-bottom: 0px;
+}
+}</style> 
+
+
+ <style id="grid-styles-adjustments_for_tablet-6391c6623432d6768929eabc" data-page-uuid="cdc0b458cdba40e4819f93423dd0069c">@media (min-width: 767px) and (max-width: 1024px) {
+    
+#\36 391c6623432d6768929eabf {
+}
+}</style> 
+
+
+ <style id="grid-styles-tablet-6391c6623432d6768929eabc" data-page-uuid="cdc0b458cdba40e4819f93423dd0069c">@media (min-width: 767px) and (max-width: 1024px) {
+    
+#\36 391c6623432d6768929eac0::before, #\36 391c6623432d6768929eac0 > .bgExtraLayerOverlay {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(45,46,50,1);
+    opacity: 0.5;
+    border-radius: inherit;
+}
+#\36 391c6623432d6768929eac0 {
+    background-image: url("https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore14-2880w.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+#\36 391c6623432d6768929eabe {
+}
+    
+#\36 391c6623432d6768929eabf {
+    padding-left: 20px;
+    padding-top: 70px;
+    padding-right: 20px;
+    padding-bottom: 70px;
+}
+}</style> 
+
+
+ <style id="grid-styles-desktop_wide-6391c6623432d6768929eabc" data-page-uuid="cdc0b458cdba40e4819f93423dd0069c">@media (min-width: 1400px) {
+    
+#\36 391c6623432d6768929eac0::before, #\36 391c6623432d6768929eac0 > .bgExtraLayerOverlay {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(45,46,50,1);
+    opacity: 0.5;
+    border-radius: inherit;
+}
+#\36 391c6623432d6768929eac0 {
+    background-image: url("https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore14-2880w.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+#\36 391c6623432d6768929eabe {
+}
+    
+#\36 391c6623432d6768929eabf {
+    padding-left: 0px;
+    padding-top: 120px;
+    padding-right: 0px;
+    padding-bottom: 120px;
+}
+}</style> 
+
+
+ <style id="grid-styles-inherited_from_desktop-6391c6623432d6768929eabc" data-page-uuid="cdc0b458cdba40e4819f93423dd0069c">@media (max-width: 766px) {
+    
+#\36 391c6623432d6768929eac0 {
+    grid-template-rows: minmax(8px, max-content);
+}
+    
+#\36 391c6623432d6768929eabf {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+}
+}</style> 
+
+
+ <style id="grid-styles-mobile_portrait-6391c6623432d6768929eabc" data-page-uuid="cdc0b458cdba40e4819f93423dd0069c">@media (max-width: 767px) {
+    
+#\36 391c6623432d6768929eac0::before, #\36 391c6623432d6768929eac0 > .bgExtraLayerOverlay {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(45,46,50,1);
+    opacity: 0.5;
+    border-radius: inherit;
+}
+#\36 391c6623432d6768929eac0 {
+    background-image: url("https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore14-2880w.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+#\36 391c6623432d6768929eac1 {
+    height: auto;
+    width: 46.05%;
+}
+    
+#\36 391c6623432d6768929eabe {
+    width: 100%;
+    min-height: 240px;
+    align-items: center;
+}
+    
+#\36 391c6623432d6768929eabf {
+    min-height: unset;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+}</style> 
+
+
+ <style id="grid-styles-mobile_landscape-6391c6623432d6768929eabc" data-page-uuid="cdc0b458cdba40e4819f93423dd0069c">@media (min-width: 468px) and (max-width: 767px) {
+    
+#\36 391c6623432d6768929eac0::before, #\36 391c6623432d6768929eac0 > .bgExtraLayerOverlay {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(45,46,50,1);
+    opacity: 0.5;
+    border-radius: inherit;
+}
+#\36 391c6623432d6768929eac0 {
+    background-image: url("https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore14-2880w.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+}</style> 
+
+
+ <style id="grid-styles-desktop-6391c6843432d6768929f607" data-page-uuid="cdc0b458cdba40e4819f93423dd0069c">@media all {
+    
+#\36 391c6843432d6768929f60a {
+    align-self: stretch;
+    padding-top: 16px;
+    background-size: cover;
+    display: flex;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    min-height: 8px;
+    background-position: 50% 50%;
+    margin-right: 0%;
+    margin-left: 0%;
+    column-gap: 4%;
+    row-gap: 24px;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0px;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: 0px;
+    min-width: 4%;
+    padding-right: 16px;
+}
+    
+#\36 391c6843432d6768929f609 {
+    align-self: start;
+    background-size: cover;
+    padding-left: 0%;
+    min-height: 460px;
+    grid-row-start: 1;
+    margin-left: 0%;
+    background-repeat: no-repeat;
+    flex-direction: row;
+    margin-top: 0px;
+    grid-column-end: span 1;
+    order: 0;
+    padding-top: 4%;
+    grid-column-start: 1;
+    display: flex;
+    padding-bottom: 4%;
+    background-position: 50% 50%;
+    margin-right: 0%;
+    column-gap: 4%;
+    row-gap: 24px;
+    max-width: 1200px;
+    grid-row-end: span 1;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0px;
+    justify-self: center;
+    padding-right: 0%;
+}
+    
+#\36 391c6843432d6768929f608 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-columns: minmax(0px, 1fr);
+    grid-template-rows: minmax(8px, max-content);
+    display: grid;
+    justify-content: start;
+    background-position: 50% 50%;
+    align-items: start;
+    position: relative;
+}
+    
+#\36 391c6843432d6768929f606 {
+    margin-left: 0%;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-top: 0px;
+}
+    
+#widget_37i {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+    max-width: 100%;
+}
+}</style> 
+
+
+ <style id="grid-styles-adjustments_for_tablet-6391c6843432d6768929f607" data-page-uuid="cdc0b458cdba40e4819f93423dd0069c">@media (min-width: 768px) and (max-width: 1024px) {
+}</style> 
+
+
+ <style id="grid-styles-tablet-6391c6843432d6768929f607" data-page-uuid="cdc0b458cdba40e4819f93423dd0069c">@media (min-width: 768px) and (max-width: 1024px) {
+    
+#\36 391c6843432d6768929f609 {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+    
+#\36 391c6843432d6768929f60a {
+}
+}</style> 
+
+
+ <style id="grid-styles-desktop_wide-6391c6843432d6768929f607" data-page-uuid="cdc0b458cdba40e4819f93423dd0069c">@media (min-width: 1400px) {
+    
+#\36 391c6843432d6768929f609 {
+}
+    
+#\36 391c6843432d6768929f60a {
+}
+}</style> 
+
+
+ <style id="grid-styles-inherited_from_desktop-6391c6843432d6768929f607" data-page-uuid="cdc0b458cdba40e4819f93423dd0069c">@media (max-width: 767px) {
+}</style> 
+
+
+ <style id="grid-styles-mobile_portrait-6391c6843432d6768929f607" data-page-uuid="cdc0b458cdba40e4819f93423dd0069c">@media (max-width: 767px) {
+    
+#\36 391c6843432d6768929f60a {
+    width: 100%;
+    min-height: 240px;
+    align-items: center;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+    
+#\36 391c6843432d6768929f609 {
+    min-height: unset;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+}</style> 
+
+
+ <style id="grid-styles-mobile_landscape-6391c6843432d6768929f607" data-page-uuid="cdc0b458cdba40e4819f93423dd0069c">@media (min-width: 468px) and (max-width: 767px) {
+}</style> 
+
+
+ <style id="grid-styles-desktop-639f4ba4a5742e74031cb9fc" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media all {
+    
+#\36 39f4ba4a5742e74031cba00 {
+    align-self: stretch;
+    padding-top: 16px;
+    background-size: cover;
+    display: flex;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    min-height: 8px;
+    background-position: 50% 50%;
+    margin-right: 0%;
+    margin-left: 0%;
+    column-gap: 4%;
+    row-gap: 8px;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    max-width: 100%;
+    width: 30.666666666666668%;
+    justify-content: flex-start;
+    margin-top: 0px;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0px;
+    min-width: 4%;
+    padding-right: 16px;
+}
+    
+#\36 39f4ba4a5742e74031cb9fe {
+    align-self: start;
+    background-size: cover;
+    padding-left: 0%;
+    min-height: 460px;
+    grid-row-start: 1;
+    margin-left: 0%;
+    background-repeat: no-repeat;
+    flex-direction: row;
+    margin-top: 0px;
+    grid-column-end: span 1;
+    order: 0;
+    padding-top: 2%;
+    grid-column-start: 1;
+    display: flex;
+    padding-bottom: 2%;
+    background-position: 50% 50%;
+    margin-right: 0%;
+    column-gap: 4%;
+    row-gap: 24px;
+    max-width: 1200px;
+    grid-row-end: span 1;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0px;
+    justify-self: center;
+    padding-right: 0%;
+}
+    
+#\36 39f4ba4a5742e74031cb9fd {
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-columns: minmax(0px, 1fr);
+    grid-template-rows: minmax(8px, max-content);
+    display: grid;
+    justify-content: start;
+    background-position: 50% 50%;
+    align-items: start;
+    position: relative;
+    background-color: rgba(237, 237, 237, 1);
+}
+    
+#\36 39f4ba4a5742e74031cb9fb {
+    margin-bottom: 0px;
+    margin-left: 0%;
+    margin-top: 0px;
+    margin-right: 0%;
+}
+    
+#\36 39f4ba4a5742e74031cb9ff {
+    align-self: stretch;
+    padding-top: 16px;
+    background-size: cover;
+    display: flex;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    min-height: 8px;
+    background-position: 50% 50%;
+    margin-right: 0%;
+    margin-left: 0%;
+    column-gap: 4%;
+    row-gap: 24px;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    max-width: 100%;
+    width: 30.666666666666668%;
+    justify-content: flex-start;
+    margin-top: 0px;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0px;
+    min-width: 4%;
+    padding-right: 16px;
+}
+    
+#group_e2t {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+    max-width: 100%;
+    width: 30.666666666666668%;
+    min-width: 4%;
+    min-height: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    column-gap: 4%;
+    row-gap: 24px;
+    align-self: stretch;
+}
+    
+#widget_8sv {
+    position: relative;
+    width: 33.63%;
+    height: 94px;
+    min-width: 10px;
+    min-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 100%;
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    justify-self: flex-start;
+    align-self: center;
+    order: 0;
+}
+    
+#\36 39f4c1ba5742e74031cceaa {
+    position: relative;
+    width: 39.34%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+    max-width: 100%;
+    order: 0;
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    justify-self: flex-start;
+    align-self: auto;
+}
+    
+#\36 39f4c39a5742e74031cd596 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+    max-width: 100%;
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    justify-self: flex-start;
+    align-self: auto;
+    order: 0;
+}
+    
+#widget_5ad {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+    max-width: 100%;
+    justify-self: flex-start;
+}
+    
+#\36 39f4caba5742e74031ce4a9 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 100%;
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    justify-self: flex-start;
+    align-self: center;
+    order: 0;
+}
+    
+#\36 39f4cb0a5742e74031ce639 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 100%;
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    justify-self: flex-start;
+    align-self: center;
+    order: 1;
+}
+    
+#\36 39f4cf7a5742e74031ceb34 {
+    position: relative;
+    width: 140px;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 100%;
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    justify-self: flex-start;
+    align-self: center;
+    order: 2;
+}
+    
+#\36 39f4d23a5742e74031cf644 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 100%;
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    justify-self: flex-start;
+    align-self: center;
+    order: 0;
+}
+    
+#\36 39f4d41a5742e74031cfdc8 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+    max-width: 100%;
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    justify-self: auto;
+    align-self: auto;
+    order: 1;
+}
+    
+#\36 39f4e1ea5742e74031d0d06 {
+    position: relative;
+    width: 300px;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+    max-width: 100%;
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    justify-self: auto;
+    align-self: auto;
+    order: 3;
+}
+    
+#widget_s85 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+    max-width: 100%;
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    justify-self: auto;
+    align-self: auto;
+    order: 2;
+}
+}</style> 
+
+
+ <style id="grid-styles-adjustments_for_tablet-639f4ba4a5742e74031cb9fc" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media (min-width: 768px) and (max-width: 1024px) {
+    
+#widget_8sv {
+}
+    
+#\36 39f4cb0a5742e74031ce639 {
+}
+    
+#\36 39f4d23a5742e74031cf644 {
+}
+    
+#\36 39f4d41a5742e74031cfdc8 {
+}
+    
+#\36 39f4e1ea5742e74031d0d06 {
+}
+}</style> 
+
+
+ <style id="grid-styles-tablet-639f4ba4a5742e74031cb9fc" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media (min-width: 768px) and (max-width: 1024px) {
+    
+#\36 39f4ba4a5742e74031cb9fe {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+    
+#\36 39f4ba4a5742e74031cb9fd {
+    background-color: rgba(237, 237, 237, 1);
+}
+    
+#\36 39f4ba4a5742e74031cba00 {
+}
+    
+#\36 39f4ba4a5742e74031cb9ff {
+}
+    
+#group_e2t {
+}
+    
+#widget_8sv {
+}
+    
+#\36 39f4cb0a5742e74031ce639 {
+}
+    
+#\36 39f4d23a5742e74031cf644 {
+}
+    
+#\36 39f4d41a5742e74031cfdc8 {
+}
+    
+#\36 39f4e1ea5742e74031d0d06 {
+}
+    
+#\36 39f4c1ba5742e74031cceaa {
+    width: 67.80%;
+}
+}</style> 
+
+
+ <style id="grid-styles-desktop_wide-639f4ba4a5742e74031cb9fc" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media (min-width: 1400px) {
+    
+#\36 39f4ba4a5742e74031cb9fd {
+    background-color: rgba(237, 237, 237, 1);
+}
+    
+#\36 39f4ba4a5742e74031cb9fe {
+}
+    
+#\36 39f4ba4a5742e74031cba00 {
+}
+    
+#\36 39f4ba4a5742e74031cb9ff {
+}
+    
+#group_e2t {
+}
+    
+#widget_8sv {
+}
+    
+#\36 39f4cb0a5742e74031ce639 {
+}
+    
+#\36 39f4d23a5742e74031cf644 {
+}
+    
+#\36 39f4d41a5742e74031cfdc8 {
+}
+    
+#\36 39f4e1ea5742e74031d0d06 {
+}
+}</style> 
+
+
+ <style id="grid-styles-inherited_from_desktop-639f4ba4a5742e74031cb9fc" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media (max-width: 767px) {
+    
+#widget_8sv {
+}
+    
+#\36 39f4cb0a5742e74031ce639 {
+}
+    
+#\36 39f4d23a5742e74031cf644 {
+}
+    
+#\36 39f4d41a5742e74031cfdc8 {
+}
+    
+#\36 39f4e1ea5742e74031d0d06 {
+}
+}</style> 
+
+
+ <style id="grid-styles-mobile_portrait-639f4ba4a5742e74031cb9fc" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media (max-width: 767px) {
+    
+#\36 39f4ba4a5742e74031cba00 {
+    width: 100%;
+    min-height: 240px;
+    align-items: center;
+}
+    
+#\36 39f4ba4a5742e74031cb9fe {
+    min-height: unset;
+    flex-direction: column;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+    
+#\36 39f4ba4a5742e74031cb9ff {
+    width: 100%;
+    min-height: 240px;
+    align-items: center;
+}
+    
+#\36 39f4ba4a5742e74031cb9fd {
+    background-color: rgba(237, 237, 237, 1);
+}
+    
+#group_e2t {
+    width: 100%;
+    min-height: 240px;
+    align-items: center;
+}
+    
+#widget_8sv {
+    height: auto;
+}
+    
+#\36 39f4c1ba5742e74031cceaa {
+    width: 66.78%;
+}
+    
+#\36 39f4cb0a5742e74031ce639 {
+}
+    
+#\36 39f4d23a5742e74031cf644 {
+}
+    
+#\36 39f4d41a5742e74031cfdc8 {
+}
+    
+#\36 39f4e1ea5742e74031d0d06 {
+    width: 284px;
+}
+}</style> 
+
+
+ <style id="grid-styles-mobile_landscape-639f4ba4a5742e74031cb9fc" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media (min-width: 468px) and (max-width: 767px) {
+    
+#\36 39f4ba4a5742e74031cb9fd {
+    background-color: rgba(237, 237, 237, 1);
+}
+    
+#widget_8sv {
+}
+    
+#\36 39f4cb0a5742e74031ce639 {
+}
+    
+#\36 39f4d23a5742e74031cf644 {
+}
+    
+#\36 39f4d41a5742e74031cfdc8 {
+}
+    
+#\36 39f4e1ea5742e74031d0d06 {
+}
+}</style> 
+
+
+ <style id="grid-styles-desktop-6450df64d525653f2f887462" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media all {
+    
+#\36 450df64d525653f2f887463 {
+    margin-right: 0%;
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-bottom: 0px;
+}
+    
+#\36 450df64d525653f2f887464 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-columns: minmax(0px, 1fr);
+    grid-template-rows: minmax(8px, max-content);
+    display: grid;
+    justify-content: start;
+    background-position: 50% 50%;
+    align-items: start;
+    position: relative;
+    background-color: rgba(237, 237, 237, 1);
+}
+    
+#\36 450df64d525653f2f887465 {
+    align-self: stretch;
+    padding-top: 0px;
+    background-size: cover;
+    display: flex;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    min-height: 8px;
+    background-position: 50% 50%;
+    margin-right: 0%;
+    margin-left: 0%;
+    column-gap: 4%;
+    row-gap: 24px;
+    background-repeat: no-repeat;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0px;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0px;
+    min-width: 4%;
+    padding-right: 0px;
+}
+    
+#\36 450df64d525653f2f887466 {
+    align-self: start;
+    background-size: cover;
+    padding-left: 0%;
+    min-height: 61px;
+    grid-row-start: 1;
+    margin-left: 0%;
+    background-repeat: no-repeat;
+    flex-direction: row;
+    margin-top: 0px;
+    grid-column-end: span 1;
+    order: 0;
+    padding-top: 1%;
+    grid-column-start: 1;
+    display: flex;
+    padding-bottom: 1%;
+    background-position: 50% 50%;
+    margin-right: 0%;
+    column-gap: 4%;
+    row-gap: 24px;
+    max-width: 1200px;
+    grid-row-end: span 1;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0px;
+    justify-self: center;
+    padding-right: 0%;
+}
+    
+#\36 450df64d525653f2f887467 {
+    position: relative;
+    width: 128px;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+    max-width: 100%;
+}
+    
+#\36 450df64d525653f2f887468 {
+    position: relative;
+    width: 190px;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+    max-width: 100%;
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    justify-self: auto;
+    align-self: auto;
+    order: 0;
+}
+    
+#\36 450df64d525653f2f887469 {
+    position: relative;
+    width: 172px;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+    max-width: 100%;
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    justify-self: auto;
+    align-self: auto;
+    order: 0;
+}
+}</style> 
+
+
+ <style id="grid-styles-adjustments_for_tablet-6450df64d525653f2f887462" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media (min-width: 768px) and (max-width: 1024px) {
+}</style> 
+
+
+ <style id="grid-styles-tablet-6450df64d525653f2f887462" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media (min-width: 768px) and (max-width: 1024px) {
+    
+#\36 450df64d525653f2f887464 {
+    background-color: rgba(237, 237, 237, 1);
+}
+    
+#\36 450df64d525653f2f887465 {
+}
+    
+#\36 450df64d525653f2f887466 {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+}</style> 
+
+
+ <style id="grid-styles-desktop_wide-6450df64d525653f2f887462" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media (min-width: 1400px) {
+    
+#\36 450df64d525653f2f887464 {
+    background-color: rgba(237, 237, 237, 1);
+}
+    
+#\36 450df64d525653f2f887465 {
+}
+    
+#\36 450df64d525653f2f887466 {
+}
+}</style> 
+
+
+ <style id="grid-styles-inherited_from_desktop-6450df64d525653f2f887462" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media (max-width: 767px) {
+}</style> 
+
+
+ <style id="grid-styles-mobile_portrait-6450df64d525653f2f887462" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media (max-width: 767px) {
+    
+#\36 450df64d525653f2f887464 {
+    background-color: rgba(237, 237, 237, 1);
+}
+    
+#\36 450df64d525653f2f887465 {
+    width: 100%;
+    min-height: 188px;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    row-gap: 10px;
+}
+    
+#\36 450df64d525653f2f887466 {
+    min-height: unset;
+    flex-direction: column;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+    
+#\36 450df64d525653f2f887467 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+    
+#\36 450df64d525653f2f887468 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+    
+#\36 450df64d525653f2f887469 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+}</style> 
+
+
+ <style id="grid-styles-mobile_landscape-6450df64d525653f2f887462" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media (min-width: 468px) and (max-width: 767px) {
+    
+#\36 450df64d525653f2f887464 {
+    background-color: rgba(237, 237, 237, 1);
+}
+}</style> 
+
+
+ <style id="grid-styles-desktop-639f4f33a5742e74031d47d9" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media all {
+    
+#\36 39f4f33a5742e74031d47dc {
+    align-self: stretch;
+    padding-top: 16px;
+    background-size: cover;
+    display: flex;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    min-height: 8px;
+    background-position: 50% 50%;
+    margin-right: 0%;
+    margin-left: 0%;
+    column-gap: 4%;
+    row-gap: 24px;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0px;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0px;
+    min-width: 4%;
+    padding-right: 16px;
+    background-color: rgba(31, 36, 55, 1);
+}
+    
+#\36 39f4f33a5742e74031d47db {
+    align-self: start;
+    background-size: cover;
+    padding-left: 0px;
+    min-height: 88px;
+    grid-row-start: 1;
+    margin-left: 0%;
+    background-repeat: no-repeat;
+    flex-direction: row;
+    margin-top: 0px;
+    grid-column-end: span 1;
+    order: 0;
+    padding-top: 0px;
+    grid-column-start: 1;
+    display: flex;
+    padding-bottom: 0px;
+    background-position: 50% 50%;
+    margin-right: 0%;
+    column-gap: 4%;
+    row-gap: 24px;
+    max-width: none;
+    grid-row-end: span 1;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0px;
+    justify-self: center;
+    padding-right: 0px;
+}
+    
+#\36 39f4f33a5742e74031d47da {
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-columns: minmax(0px, 1fr);
+    grid-template-rows: minmax(8px, max-content);
+    display: grid;
+    justify-content: start;
+    background-position: 50% 50%;
+    align-items: start;
+    position: relative;
+}
+    
+#\36 39f4f33a5742e74031d47d8 {
+    margin-bottom: 0px;
+    margin-left: 0%;
+    margin-top: 0px;
+    margin-right: 0%;
+}
+    
+#\36 390fcda543f527577cc80c5 {
+    height: auto;
+}
+    
+#\36 39f4f50a5742e74031d4e2a {
+    position: relative;
+    width: 16.46%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 100%;
+    align-self: center;
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    justify-self: auto;
+    order: 0;
+}
+}</style> 
+
+
+ <style id="grid-styles-adjustments_for_tablet-639f4f33a5742e74031d47d9" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media (min-width: 768px) and (max-width: 1024px) {
+}</style> 
+
+
+ <style id="grid-styles-tablet-639f4f33a5742e74031d47d9" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media (min-width: 768px) and (max-width: 1024px) {
+    
+#\36 39f4f33a5742e74031d47db {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+    
+#\36 39f4f33a5742e74031d47dc {
+    background-color: rgba(31, 36, 55, 1);
+}
+}</style> 
+
+
+ <style id="grid-styles-desktop_wide-639f4f33a5742e74031d47d9" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media (min-width: 1400px) {
+    
+#\36 39f4f33a5742e74031d47db {
+}
+    
+#\36 39f4f33a5742e74031d47dc {
+    background-color: rgba(31, 36, 55, 1);
+}
+    
+#\36 39f4f50a5742e74031d4e2a {
+    height: 33px;
+    width: 12.50%;
+}
+}</style> 
+
+
+ <style id="grid-styles-inherited_from_desktop-639f4f33a5742e74031d47d9" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media (max-width: 767px) {
+}</style> 
+
+
+ <style id="grid-styles-mobile_portrait-639f4f33a5742e74031d47d9" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media (max-width: 767px) {
+    
+#\36 39f4f33a5742e74031d47dc {
+    width: 100%;
+    min-height: 77px;
+    align-items: center;
+    background-color: rgba(31, 36, 55, 1);
+}
+    
+#\36 39f4f33a5742e74031d47db {
+    min-height: unset;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+    
+#\36 39f4f50a5742e74031d4e2a {
+    height: 30px;
+    width: 44.21%;
+}
+}</style> 
+
+
+ <style id="grid-styles-mobile_landscape-639f4f33a5742e74031d47d9" data-page-uuid="2c4d2c5e192c47ddbe9cf9cab2a54a79" data-is-header="true">@media (min-width: 468px) and (max-width: 767px) {
+    
+#\36 39f4f33a5742e74031d47dc {
+    background-color: rgba(31, 36, 55, 1);
+}
+}</style> 
+
+
+
+
+
+
+<style id="globalFontSizeStyle" type="text/css">
+    .font-size-22, .size-22, .size-22 > font { font-size: 22px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }
+</style>
+<style id="pageFontSizeStyle" type="text/css">
+</style>
+
+
+
+
+<style id="hideAnimFix">
+  .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+    visibility: hidden;
+  }
+  .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+    visibility: hidden !important;
+  }
+</style>
+
+
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+<link rel="alternate" hreflang="tr" href="https://www.osteriasalvatore.com/tr/gallery">
+<link rel="alternate" hreflang="en" href="https://www.osteriasalvatore.com/gallery">
+
+
+<meta property="og:type" content="website">
+
+  <title>
+    Salvatore Osteria, Italian Restaurant | Gallery
+  </title>
+  <meta name="keywords" content="salvatore restaurant, salvatore osteria, istanbul italian restaurant, best italian restaurant, italian restaurant bosphorus">
+  <meta name="description" content="At Osteria Salvatore, where good food, good service, a unique location, and a good view come together, you can enjoy the moment at lunch and dinner seven days a week, with artisanal cocktails prepared by the bar team, at many times of the day.">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Salvatore Osteria, Italian Restaurant | Gallery">
+  <meta name="twitter:description" content="At Osteria Salvatore, where good food, good service, a unique location, and a good view come together, you can enjoy the moment at lunch and dinner seven days a week, with artisanal cocktails prepared by the bar team, at many times of the day.">
+  <meta property="og:description" content="At Osteria Salvatore, where good food, good service, a unique location, and a good view come together, you can enjoy the moment at lunch and dinner seven days a week, with artisanal cocktails prepared by the bar team, at many times of the day.">
+  <meta property="og:title" content="Salvatore Osteria, Italian Restaurant | Gallery">
+
+
+
+
+<!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
+<script charset="utf-8" src="./resim25_files/18.8d9b98557bf3839e9c87.js.indir"></script><script charset="utf-8" src="./resim25_files/23.3cb6000fef6c88247500.js.indir"></script><script charset="utf-8" src="./resim25_files/1.2b782b34fc8e3041029a.js.indir"></script><script charset="utf-8" src="./resim25_files/7.16e60f6d711f2c34ba98.js.indir"></script><script charset="utf-8" src="./resim25_files/runtime-module-anchors.8069350c1321599c430f.js.indir"></script><script charset="utf-8" src="./resim25_files/3.837e97ee3698267e2a54.js.indir"></script><script charset="utf-8" src="./resim25_files/5.a5af5a3b04156da9e174.js.indir"></script><script charset="utf-8" src="./resim25_files/8.20c25f8b84fd357fa245.js.indir"></script><style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style><script charset="utf-8" src="./resim25_files/22.5905452e0f39f848dc18.js.indir"></script><script charset="utf-8" src="./resim25_files/2.42ed68b61737d7419f05.js.indir"></script><script charset="utf-8" src="./resim25_files/27.4a0ea2a179ee16f47152.js.indir"></script><script charset="utf-8" src="./resim25_files/26.a4650d12a37427902a2f.js.indir"></script><script charset="utf-8" src="./resim25_files/14.4eaf59652fc9bcd76cab.js.indir"></script><script charset="utf-8" src="./resim25_files/15.9d1cddab35a1ce20311b.js.indir"></script><style type="text/css">/*! PhotoSwipe Default UI CSS by Dmitry Semenov | photoswipe.com | MIT license */
+/*
+
+	Contents:
+
+	1. Buttons
+	2. Share modal and links
+	3. Index indicator ("1 of X" counter)
+	4. Caption
+	5. Loading indicator
+	6. Additional styles (root element, top bar, idle state, hidden state, etc.)
+
+*/
+/*
+	
+	1. Buttons
+
+ */
+/* <button> css reset */
+.pswp__button {
+  width: 44px;
+  height: 44px;
+  position: relative;
+  background: none;
+  cursor: pointer;
+  overflow: visible;
+  -webkit-appearance: none;
+  display: block;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  float: right;
+  opacity: 0.75;
+  transition: opacity 0.2s;
+  box-shadow: none; }
+
+.pswp__button:focus, .pswp__button:hover {
+  opacity: 1; }
+
+.pswp__button:active {
+  outline: none;
+  opacity: 0.9; }
+
+.pswp__button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+/* pswp__ui--over-close class it added when mouse is over element that should close gallery */
+.pswp__ui--over-close .pswp__button--close {
+  opacity: 1; }
+
+.pswp__button, .pswp__button--arrow--left:before, .pswp__button--arrow--right:before {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAABYCAQAAACjBqE3AAAB6klEQVR4Ae3bsWpUQRTG8YkkanwCa7GzVotsI/gEgk9h4Vu4ySLYmMYgbJrc3lrwZbJwC0FMt4j7F6Y4oIZrsXtgxvx/1c0ufEX4cnbmLCmSJEmSJEmSJEmSJP3XCBPvbJU+8doWmDFwyZpLBmYlNJebz0KwzykwsuSYJSNwykEJreV2BaBMaLIQZ2xYcFgqDlmw4ayE/FwL0dDk4Qh4W37DAjgqIT+3HRbigjH+iikVdxgZStgyN0Su2sXIeTwTT+esdpcbIlfNAuZ/TxresG4zV8kYWSZNiKUTokMMSWeIwTNEn4fK2TW3gRNgVkJLuVksROA9G+bEvoATNlBCa7nZXEwdxEZxzpKRKFh+bsv8LmPFmhX1OwfIz81jIRJQ5eeqG9B+riRJkiRJkiRJkiRJkiRJkiRJUkvA/8RQoEpKlJWINFkJ62AlrEP/mNBibnv2yz/A3t7Uq3LcpoxP8COjC1T5vxoAD5VdoEqdDrd5QuW1swtUSaueh3zkiuBiqgtA2OlkeMcP/uDqugsJdbjHF65VdPMKwS0+WQc/MgKvrIOHysB9vgPwk8+85hmPbnQdvHZyDMAFD7L3EOpgMcVdvnHFS0/vlatrXvCVx0U9gt3fxvnA0/hB4nmRJEmSJEmSJEmSJGmHfgFLaDPoMu5xWwAAAABJRU5ErkJggg==) 0 0 no-repeat;
+  background-size: 264px 88px;
+  width: 44px;
+  height: 44px; }
+
+@media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-ratio: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
+  /* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
+  .pswp--svg .pswp__button, .pswp--svg .pswp__button--arrow--left:before, .pswp--svg .pswp__button--arrow--right:before {
+    background-image: url(https://static.cdn-website.com/mnlt/production/3453/editor/apps/modules/runtime/b257fa9c5ac8c515ac4d77a667ce2943.svg); }
+  .pswp--svg .pswp__button--arrow--left, .pswp--svg .pswp__button--arrow--right {
+    background: none; } }
+
+.pswp__button--close {
+  background-position: 0 -44px; }
+
+.pswp__button--share {
+  background-position: -44px -44px; }
+
+.pswp__button--fs {
+  display: none; }
+
+.pswp--supports-fs .pswp__button--fs {
+  display: block; }
+
+.pswp--fs .pswp__button--fs {
+  background-position: -44px 0; }
+
+.pswp__button--zoom {
+  display: none;
+  background-position: -88px 0; }
+
+.pswp--zoom-allowed .pswp__button--zoom {
+  display: block; }
+
+.pswp--zoomed-in .pswp__button--zoom {
+  background-position: -132px 0; }
+
+/* no arrows on touch screens */
+.pswp--touch .pswp__button--arrow--left, .pswp--touch .pswp__button--arrow--right {
+  visibility: hidden; }
+
+/*
+	Arrow buttons hit area
+	(icon is added to :before pseudo-element)
+*/
+.pswp__button--arrow--left, .pswp__button--arrow--right {
+  background: none;
+  top: 50%;
+  margin-top: -50px;
+  width: 70px;
+  height: 100px;
+  position: absolute; }
+
+.pswp__button--arrow--left {
+  left: 0; }
+
+.pswp__button--arrow--right {
+  right: 0; }
+
+.pswp__button--arrow--left:before, .pswp__button--arrow--right:before {
+  content: '';
+  top: 35px;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 30px;
+  width: 32px;
+  position: absolute; }
+
+.pswp__button--arrow--left:before {
+  left: 6px;
+  background-position: -138px -44px; }
+
+.pswp__button--arrow--right:before {
+  right: 6px;
+  background-position: -94px -44px; }
+
+/*
+
+	2. Share modal/popup and links
+
+ */
+.pswp__counter, .pswp__share-modal {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.pswp__share-modal {
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  z-index: 1600;
+  opacity: 0;
+  transition: opacity 0.25s ease-out;
+  -webkit-backface-visibility: hidden;
+  will-change: opacity; }
+
+.pswp__share-modal--hidden {
+  display: none; }
+
+.pswp__share-tooltip {
+  z-index: 1620;
+  position: absolute;
+  background: #FFF;
+  top: 56px;
+  border-radius: 2px;
+  display: block;
+  width: auto;
+  right: 44px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  -ms-transform: translateY(6px);
+  transform: translateY(6px);
+  transition: transform 0.25s;
+  -webkit-backface-visibility: hidden;
+  will-change: transform; }
+
+.pswp__share-tooltip a {
+  display: block;
+  padding: 8px 12px;
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px; }
+
+.pswp__share-tooltip a:hover {
+  text-decoration: none;
+  color: #000; }
+
+.pswp__share-tooltip a:first-child {
+  /* round corners on the first/last list item */
+  border-radius: 2px 2px 0 0; }
+
+.pswp__share-tooltip a:last-child {
+  border-radius: 0 0 2px 2px; }
+
+.pswp__share-modal--fade-in {
+  opacity: 1; }
+
+.pswp__share-modal--fade-in .pswp__share-tooltip {
+  -ms-transform: translateY(0);
+  transform: translateY(0); }
+
+/* increase size of share links on touch devices */
+.pswp--touch .pswp__share-tooltip a {
+  padding: 16px 12px; }
+
+a.pswp__share--facebook:before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: -12px;
+  right: 15px;
+  border: 6px solid rgba(0, 0, 0, 0);
+  border-bottom-color: #FFF;
+  -webkit-pointer-events: none;
+  -moz-pointer-events: none;
+  pointer-events: none; }
+
+a.pswp__share--facebook:hover {
+  background: #3E5C9A;
+  color: #FFF; }
+
+a.pswp__share--facebook:hover:before {
+  border-bottom-color: #3E5C9A; }
+
+a.pswp__share--twitter:hover {
+  background: #55ACEE;
+  color: #FFF; }
+
+a.pswp__share--pinterest:hover {
+  background: #CCC;
+  color: #CE272D; }
+
+a.pswp__share--download:hover {
+  background: #DDD; }
+
+/*
+
+	3. Index indicator ("1 of X" counter)
+
+ */
+.pswp__counter {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 44px;
+  font-size: 13px;
+  line-height: 44px;
+  color: #FFF;
+  opacity: 0.75;
+  padding: 0 10px; }
+
+/*
+	
+	4. Caption
+
+ */
+.pswp__caption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 44px; }
+
+.pswp__caption small {
+  font-size: 11px;
+  color: #BBB; }
+
+.pswp__caption__center {
+  text-align: left;
+  max-width: 420px;
+  margin: 0 auto;
+  font-size: 13px;
+  padding: 10px;
+  line-height: 20px;
+  color: #CCC; }
+
+.pswp__caption--empty {
+  display: none; }
+
+/* Fake caption element, used to calculate height of next/prev image */
+.pswp__caption--fake {
+  visibility: hidden; }
+
+/*
+
+	5. Loading indicator (preloader)
+
+	You can play with it here - http://codepen.io/dimsemenov/pen/yyBWoR
+
+ */
+.pswp__preloader {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -22px;
+  opacity: 0;
+  transition: opacity 0.25s ease-out;
+  will-change: opacity; }
+
+.pswp__preloader__icn {
+  width: 20px;
+  height: 20px;
+  margin: 12px; }
+
+.pswp__preloader--active {
+  opacity: 1; }
+
+.pswp__preloader--active .pswp__preloader__icn {
+  /* We use .gif in browsers that don't support CSS animation */
+  background: url(https://static.cdn-website.com/mnlt/production/3453/editor/apps/modules/runtime/e34aafbb485a96eaf2a789b2bf3af6fe.gif) 0 0 no-repeat; }
+
+.pswp--css_animation .pswp__preloader--active {
+  opacity: 1; }
+
+.pswp--css_animation .pswp__preloader--active .pswp__preloader__icn {
+  animation: clockwise 500ms linear infinite; }
+
+.pswp--css_animation .pswp__preloader--active .pswp__preloader__donut {
+  animation: donut-rotate 1000ms cubic-bezier(0.4, 0, 0.22, 1) infinite; }
+
+.pswp--css_animation .pswp__preloader__icn {
+  background: none;
+  opacity: 0.75;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  margin: 0; }
+
+.pswp--css_animation .pswp__preloader__cut {
+  /* 
+			The idea of animating inner circle is based on Polymer ("material") loading indicator 
+			 by Keanu Lee https://blog.keanulee.com/2014/10/20/the-tale-of-three-spinners.html
+		*/
+  position: relative;
+  width: 7px;
+  height: 14px;
+  overflow: hidden; }
+
+.pswp--css_animation .pswp__preloader__donut {
+  box-sizing: border-box;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #FFF;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: none;
+  margin: 0; }
+
+@media screen and (max-width: 1024px) {
+  .pswp__preloader {
+    position: relative;
+    left: auto;
+    top: auto;
+    margin: 0;
+    float: right; } }
+
+@keyframes clockwise {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+@keyframes donut-rotate {
+  0% {
+    transform: rotate(0); }
+  50% {
+    transform: rotate(-140deg); }
+  100% {
+    transform: rotate(0); } }
+
+/*
+	
+	6. Additional styles
+
+ */
+/* root element of UI */
+.pswp__ui {
+  -webkit-font-smoothing: auto;
+  visibility: visible;
+  opacity: 1;
+  z-index: 1550; }
+
+/* top black bar with buttons and "1 of X" indicator */
+.pswp__top-bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 44px;
+  width: 100%; }
+
+.pswp__caption, .pswp__top-bar, .pswp--has_mouse .pswp__button--arrow--left, .pswp--has_mouse .pswp__button--arrow--right {
+  -webkit-backface-visibility: hidden;
+  will-change: opacity;
+  transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1); }
+
+/* pswp--has_mouse class is added only when two subsequent mousemove events occur */
+.pswp--has_mouse .pswp__button--arrow--left, .pswp--has_mouse .pswp__button--arrow--right {
+  visibility: visible; }
+
+.pswp__top-bar, .pswp__caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+/* pswp__ui--fit class is added when main image "fits" between top bar and bottom bar (caption) */
+.pswp__ui--fit .pswp__top-bar, .pswp__ui--fit .pswp__caption {
+  background-color: rgba(0, 0, 0, 0.3); }
+
+/* pswp__ui--idle class is added when mouse isn't moving for several seconds (JS option timeToIdle) */
+.pswp__ui--idle .pswp__top-bar {
+  opacity: 0; }
+
+.pswp__ui--idle .pswp__button--arrow--left, .pswp__ui--idle .pswp__button--arrow--right {
+  opacity: 0; }
+
+/*
+	pswp__ui--hidden class is added when controls are hidden
+	e.g. when user taps to toggle visibility of controls
+*/
+.pswp__ui--hidden .pswp__top-bar, .pswp__ui--hidden .pswp__caption, .pswp__ui--hidden .pswp__button--arrow--left, .pswp__ui--hidden .pswp__button--arrow--right {
+  /* Force paint & create composition layer for controls. */
+  opacity: 0.001; }
+
+/* pswp__ui--one-slide class is added when there is just one item in gallery */
+.pswp__ui--one-slide .pswp__button--arrow--left, .pswp__ui--one-slide .pswp__button--arrow--right, .pswp__ui--one-slide .pswp__counter {
+  display: none; }
+
+.pswp__element--disabled {
+  display: none !important; }
+
+.pswp--minimal--dark .pswp__top-bar {
+  background: none; }
+</style><style type="text/css">/*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
+/*
+	Styles for basic PhotoSwipe functionality (sliding area, open/close transitions)
+*/
+/* pswp = photoswipe */
+.pswp {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  -ms-touch-action: none;
+  touch-action: none;
+  z-index: 1500;
+  -webkit-text-size-adjust: 100%;
+  /* create separate layer, to avoid paint on window.onscroll in webkit/blink */
+  -webkit-backface-visibility: hidden;
+  outline: none; }
+
+.pswp * {
+  box-sizing: border-box; }
+
+.pswp img {
+  max-width: none; }
+
+/* style is added when JS option showHideOpacity is set to true */
+.pswp--animate_opacity {
+  /* 0.001, because opacity:0 doesn't trigger Paint action, which causes lag at start of transition */
+  opacity: 0.001;
+  will-change: opacity;
+  /* for open/close transition */
+  transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1); }
+
+.pswp--open {
+  display: block; }
+
+.pswp--zoom-allowed .pswp__img {
+  /* autoprefixer: off */
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in; }
+
+.pswp--zoomed-in .pswp__img {
+  /* autoprefixer: off */
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab; }
+
+.pswp--dragging .pswp__img {
+  /* autoprefixer: off */
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing; }
+
+/*
+	Background is added as a separate element.
+	As animating opacity is much faster than animating rgba() background-color.
+*/
+.pswp__bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  will-change: opacity; }
+
+.pswp__scroll-wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.pswp__container, .pswp__zoom-wrap {
+  -ms-touch-action: none;
+  touch-action: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; }
+
+/* Prevent selection and tap highlights */
+.pswp__container, .pswp__img {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none; }
+
+.pswp__zoom-wrap {
+  position: absolute;
+  width: 100%;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  /* for open/close transition */
+  transition: transform 333ms cubic-bezier(0.4, 0, 0.22, 1); }
+
+.pswp__bg {
+  will-change: opacity;
+  /* for open/close transition */
+  transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1); }
+
+.pswp--animated-in .pswp__bg, .pswp--animated-in .pswp__zoom-wrap {
+  transition: none; }
+
+.pswp__container, .pswp__zoom-wrap {
+  -webkit-backface-visibility: hidden;
+  will-change: transform; }
+
+.pswp__item {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden; }
+
+.pswp__img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 0;
+  left: 0;
+  transition: opacity 0.15s; }
+
+/*
+	stretched thumbnail or div placeholder element (see below)
+	style is added to avoid flickering in webkit/blink when layers overlap
+*/
+.pswp__img--placeholder {
+  -webkit-backface-visibility: hidden; }
+
+/*
+	div element that matches size of large image
+	large image loads on top of it
+*/
+.pswp__img--placeholder--blank {
+  background: #222; }
+
+.pswp--ie .pswp__img {
+  width: 100%;
+  height: auto;
+  left: 0;
+  top: 0; }
+
+/*
+	Error message appears when image is not loaded
+	(JS option errorMsg controls markup)
+*/
+.pswp__error-msg {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: -8px;
+  color: #CCC; }
+
+.pswp__error-msg a {
+  color: #CCC;
+  text-decoration: underline; }
+</style></head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot" data-page-alias="tr/gallery" class="dmRoot dmDesktopBody fix-mobile-scrolling addCanvasBorder dmResellerSite dmLargeBody responsiveTablet pcCustomScrollbar d1SiteBody dmBodyNoIscroll fullyLoaded" style="padding:0;margin:0;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========= Site Content ========= -->
+<div id="dm" class="dmwr">
+    
+    <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+         <div dmwrapped="true" id="1901957768" class="dm-home-page" themewaschanged="true"> <div dmtemplateid="Hamburger" data-responsive-name="ResponsiveDesktopTopTabletHamburger" class="runtime-module-container dm-bfs dm-layout-sec hasAnimations hasStickyHeader inMiniHeaderMode rows-1200 hamburger-reverse dmPageBody dmFreeHeader d-page-1716942098" id="dm-outer-wrapper" data-page-class="1716942098" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div id="site_content"> <div class="p_hfcontainer showOnMedium"> <div id="hamburger-drawer" class="hamburger-drawer layout-drawer" layout="e9d510f4eb904e939c2be8efaf777e6e===header" data-origin="side-reverse" data-auto-height="true"> <div class="u_1826294544 dmRespRow" style="text-align: center;" id="1826294544"> <div class="dmRespColsWrapper" id="1337204992"> <div class="u_1183846399 dmRespCol small-12 medium-12 large-12 empty-column" id="1183846399"></div> 
+</div> 
+</div> 
+ <div class="u_1021493186 dmRespRow middleDrawerRow" style="text-align: center;" id="1021493186"> <div class="dmRespColsWrapper" id="1170137577"> <div class="dmRespCol small-12 u_1808057136 medium-12 large-12" id="1808057136"> <nav class="u_1144820115 effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_2" layout-sub="" data-show-vertical-sub-items="HIDE" id="1144820115" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0"> <a href="https://www.osteriasalvatore.com/tr" class="unifiednav__item dmUDNavigationItem_00" target="" data-target-page-alias="tr" tabindex="0"> <span class="nav-item-text " data-link-text="
+         SALVATORE
+        " data-auto="page-text-style">SALVATORE<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0"> <a href="https://www.osteriasalvatore.com/tr/gallery" class="unifiednav__item dmUDNavigationItem_010101948020 currentPage dmNavItemSelected" target="" data-target-page-alias="tr/gallery" data-auto="selected-page" tabindex="-1"> <span class="nav-item-text " data-link-text="
+         GALERİ
+        " data-auto="page-text-style">GALERİ<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0"> <a href="https://www.osteriasalvatore.com/tr/yiyecek-icecek" class="unifiednav__item dmUDNavigationItem_010101638965 unifiednav__item_has-sub-nav" target="" data-target-page-alias="tr/yiyecek-icecek" tabindex="-1"> <span class="nav-item-text " data-link-text="
+         MENÜ
+        " data-auto="page-text-style">MENÜ<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1"> <a href="https://www.osteriasalvatore.com/tr/dining" class="unifiednav__item dmUDNavigationItem_010101189293" target="" data-target-page-alias="tr/dining" tabindex="-1"> <span class="nav-item-text " data-link-text="
+           MUTFAK
+          " data-auto="page-text-style">MUTFAK<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1"> <a href="https://www.osteriasalvatore.com/tr/beverage" class="unifiednav__item dmUDNavigationItem_010101957755" target="" data-target-page-alias="tr/beverage" tabindex="-1"> <span class="nav-item-text " data-link-text="
+           İÇECEKLER
+          " data-auto="page-text-style">İÇECEKLER<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0"> <a href="https://www.osteriasalvatore.com/tr/contact" class="unifiednav__item dmUDNavigationItem_01010133123" target="" data-target-page-alias="tr/contact" tabindex="-1"> <span class="nav-item-text " data-link-text="
+         BİZE ULAŞIN
+        " data-auto="page-text-style">BİZE ULAŞIN<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1676049285" style="text-align: center;" id="1676049285"> <div class="dmRespColsWrapper" id="1888750820"> <div class="u_1916182198 dmRespCol small-12 medium-12 large-12" id="1916182198"> <div class="u_1919575698 dmNewParagraph" id="1919575698" style="transition: none;"> <font style="color:rgb(100, 100, 100);"> <span class="font-size-22 lh-1">Temasta olmak</span> 
+</font> 
+</div> <div class="u_1359743311 dmNewParagraph" id="1359743311" style="line-height:initial;" data-version="5"><p class="text-align-left size-13 m-size-10"><span style="display: initial; font-weight: bold; color: rgb(255, 255, 255); text-decoration: none;" class="font-size-13 m-font-size-10">Phone:</span><span style="display: initial; font-weight: 300; color: rgb(255, 255, 255); text-decoration: none;" class="font-size-13 m-font-size-10">&nbsp;</span><a href="tel:+90 216 422 70 01" target="_blank" class="font-size-13 m-font-size-10" style="display: initial; color: rgb(255, 255, 255); text-decoration: none;">+90 216 422 70 01</a></p><p class="text-align-left size-13 m-size-10"><span style="display: initial; color: rgb(255, 255, 255); text-decoration: none;" class="font-size-13 m-font-size-10">Phone:&nbsp;</span><a href="tel:+90 216 422 57 03" target="_blank" class="font-size-13 m-font-size-10" style="display: initial; color: rgb(255, 255, 255); text-decoration: none;">+90 216 422 57 03</a><span style="display: initial; color: rgb(255, 255, 255); text-decoration: none;" class="font-size-13 m-font-size-10"><br>E-Mail:&nbsp;</span><a href="mailto:rezervasyon@osteria-salvatore.com" target="_blank" class="font-size-13 m-font-size-10" style="display: initial; color: rgb(255, 255, 255); text-decoration: none;">rezervasyon@osteria-salvatore.com</a></p><p class="text-align-left" style="line-height: 2;"><br></p></div></div> 
+</div> 
+</div> 
+</div> 
+ <div class="layout-drawer-overlay" id="layout-drawer-overlay"></div> 
+</div> 
+ <div class="site_content"> <div id="hamburger-header-container" class="showOnMedium hamburger-header-container p_hfcontainer"> <div id="hamburger-header" class="hamburger-header p_hfcontainer" layout="44dc38f951e9489490b055748e10ba9f===header"> <div class="u_1705692124 dmRespRow" style="text-align: center;" id="1705692124"> <div class="dmRespColsWrapper" id="1469942216"> <div class="u_1655486006 dmRespCol small-12 large-9 medium-9" id="1655486006"> <div class="u_1923160809 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1923160809" editablewidget="true"> <a href="https://www.osteriasalvatore.com/tr/" id="1573522578" file="false"><img src="./resim25_files/SALVATORE-(1)1-1920w.png" id="1761992403" class="" data-dm-image-path="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/SALVATORE-%281%291.png" width="963" height="329" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+ <div class="u_1242643056 dmRespCol small-12 large-3 medium-3" id="1242643056"> <div id="1391275139" class="multilingualWidget dropdown flag-only" dmle_extension="multilingual" data-element-type="multilingual" data-display="dropdown" icon="false" surround="false"> <div class="desktopMultilingual"> <div class="language current-language"> <a href="https://www.osteriasalvatore.com/tr/gallery" data-disable-ajax-navigation="true"><img src="./resim25_files/tr.png" alt="Türkçe" data-code="" onerror="handleImageLoadError(this)"> <span class="name">Türkçe</span> 
+ <span class="short-label">tr</span> 
+ <div class="dm-icon dm-icon-chevron-down"></div> 
+</a> 
+</div> 
+ <div class="language other-languages"> <a href="https://www.osteriasalvatore.com/gallery" data-code="" data-disable-ajax-navigation="true"><img src="./resim25_files/us.png" alt="English" onerror="handleImageLoadError(this)"> <span class="name">English</span> 
+ <span class="short-label">en</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmHeaderContainer fHeader d-header-wrapper showOnLarge"> <div id="hcontainer" class="u_hcontainer dmHeader p_hfcontainer scroll-responder_set" freeheader="true" headerlayout="b58ba5b5703b4cd7b5f5f7951565dc87===horizontal-layout-5" data-scrollable-target="body" data-scrollable-target-threshold="1" data-scroll-responder-id="1" preserve-sticky-header="true" logo-size-target="80%" layout="7621f7e0002549258c16efb7610abc8f===header" secondary-image="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/SALVATORE-%281%291-1920w.png" has-secondary-image="true"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236"> <div class="u_1603635136 dmRespRow dmDefaultListContentRow fullBleedChanged fullBleedMode mini-header-show-row" style="text-align:center" id="1603635136"> <div class="dmRespColsWrapper" id="1498522813"> <div class="u_1942744982 small-12 dmRespCol large-3 medium-3 has-one-widget-only" id="1942744982"> <div class="u_1895474597 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1895474597" editablewidget="true"><img src="./resim25_files/SALVATORE-(1)1-1920w.png" alt="" id="1819448671" class="primary-image" data-dm-image-path="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/SALVATORE-%281%291.png" width="963" height="329" onerror="handleImageLoadError(this)"><img alt="secondary-image" src="./resim25_files/SALVATORE-(1)1-1920w.png" id="navLogo" class="navLogo secondary-image" style=""></div> 
+</div> 
+ <div class="u_1014038660 dmRespCol small-12 large-6 medium-6 has-one-widget-only" id="1014038660"> <nav class="u_1447701315 effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1447701315" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Empty-bg-a75a5901.png" alt="" data-nav-structure="HORIZONTAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0"> <a href="https://www.osteriasalvatore.com/tr" class="unifiednav__item dmUDNavigationItem_00" target="" data-target-page-alias="tr" tabindex="0"> <span class="nav-item-text " data-link-text="
+         SALVATORE
+        " data-auto="page-text-style">SALVATORE<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0"> <a href="https://www.osteriasalvatore.com/tr/gallery" class="unifiednav__item dmUDNavigationItem_010101948020 currentPage dmNavItemSelected" target="" data-target-page-alias="tr/gallery" data-auto="selected-page" tabindex="-1"> <span class="nav-item-text " data-link-text="
+         GALERİ
+        " data-auto="page-text-style">GALERİ<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0"> <a href="https://www.osteriasalvatore.com/tr/yiyecek-icecek" class="unifiednav__item dmUDNavigationItem_010101638965 unifiednav__item_has-sub-nav" target="" data-target-page-alias="tr/yiyecek-icecek" tabindex="-1"> <span class="nav-item-text " data-link-text="
+         MENÜ
+        " data-auto="page-text-style">MENÜ<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1"> <a href="https://www.osteriasalvatore.com/tr/dining" class="unifiednav__item dmUDNavigationItem_010101189293" target="" data-target-page-alias="tr/dining" tabindex="-1"> <span class="nav-item-text " data-link-text="
+           MUTFAK
+          " data-auto="page-text-style">MUTFAK<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1"> <a href="https://www.osteriasalvatore.com/tr/beverage" class="unifiednav__item dmUDNavigationItem_010101957755" target="" data-target-page-alias="tr/beverage" tabindex="-1"> <span class="nav-item-text " data-link-text="
+           İÇECEKLER
+          " data-auto="page-text-style">İÇECEKLER<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0"> <a href="https://www.osteriasalvatore.com/tr/contact" class="unifiednav__item dmUDNavigationItem_01010133123" target="" data-target-page-alias="tr/contact" tabindex="-1"> <span class="nav-item-text " data-link-text="
+         BİZE ULAŞIN
+        " data-auto="page-text-style">BİZE ULAŞIN<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1701738259 dmRespCol small-12 large-2 medium-2 has-one-widget-only" id="1701738259"> <div class="u_1738613001 align-center text-align-center dmSocialHub" id="1738613001" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://www.facebook.com/salvatoreistanbul/" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Facebook&#39;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.instagram.com/salvatoreistanbul/" target="_blank" dm_dont_rewrite_url="true" aria-label="instagram" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Instagram&#39;)"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="mailto:rezervasyon@osteria-salvatore.com" dm_dont_rewrite_url="true" aria-label="email" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Email&#39;)" target="_blank"> <span class="dmSocialEmail dm-social-icons-email oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1946248973 dmRespCol small-12 large-1 medium-1 has-one-widget-only" id="1946248973"> <div id="1397762926" class="u_1397762926 multilingualWidget inline short-label no-flag" dmle_extension="multilingual" data-element-type="multilingual" data-display="inlineShortLabelNoFlag" icon="false" surround="false"> <div class="desktopMultilingual"> <div class="language current-language"> <a href="https://www.osteriasalvatore.com/tr/gallery" data-disable-ajax-navigation="true"><img src="./resim25_files/tr.png" alt="Türkçe" data-code="" onerror="handleImageLoadError(this)"> <span class="name">Türkçe</span> 
+ <span class="short-label">tr</span> 
+ <div class="dm-icon dm-icon-chevron-down"></div> 
+</a> 
+</div> 
+ <div class="language other-languages"> <a href="https://www.osteriasalvatore.com/gallery" data-code="" data-disable-ajax-navigation="true"><img src="./resim25_files/us.png" alt="English" onerror="handleImageLoadError(this)"> <span class="name">English</span> 
+ <span class="short-label">en</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="stickyHeaderSpacer" id="stickyHeaderSpacer" data-new="true"></div> 
+ <div dmwrapped="true" id="dmFirstContainer" class="dmBody u_dmStyle_template_tr/gallery dm-home-page" themewaschanged="true"> <div id="allWrapper" class="allWrapper"><!-- navigation placeholders --> <div id="dm_content" class="dmContent"> <div dm:templateorder="170" class="dmHomeRespTmpl mainBorder dmRespRowsWrapper dmFullRowRespTmpl dmRespRowsWrapperSize1" id="1716942098"> <div data-auto="flex-section" id="1626931261" data-flex-id="6391c6623432d6768929eabc" data-layout-section=""> <div class="flex-widgets-container" id="1423201824"></div> 
+ <section id="6391c6623432d6768929eabd" class="flex-element section" data-auto="flex-element-section"> <div id="6391c6623432d6768929eac0" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="6391c6623432d6768929eabf" class="flex-element group" data-auto="flex-element-group"> <div id="6391c6623432d6768929eabe" class="flex-element group" data-auto="flex-element-group"> <div id="6391c6623432d6768929eac1" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="image" data-keep-proportion="true" data-external-id="1404776675"> <div class="imageWidget align-center u_1404776675" data-element-type="image" data-widget-type="image" id="1404776675" editablewidget="true"><img src="./resim25_files/salvatore-wh-1920w.png" alt="" id="1410914723" class="" data-dm-image-path="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/salvatore-wh.png" width="963" height="784" onerror="handleImageLoadError(this)"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+ <div data-auto="flex-section" id="1578775469" data-flex-id="6391c6843432d6768929f607" data-layout-section=""> <div class="flex-widgets-container" id="1348378971"></div> 
+ <section id="6391c6843432d6768929f606" class="flex-element section" data-auto="flex-element-section"> <div id="6391c6843432d6768929f608" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="6391c6843432d6768929f609" class="flex-element group" data-auto="flex-element-group"> <div id="6391c6843432d6768929f60a" class="flex-element group" data-auto="flex-element-group"> <div id="widget_37i" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="photoGallery" data-external-id="1634329090"> <div class="dmPhotoGallery newPhotoGallery dmPhotoGalleryResp u_1634329090 hasShadow text-layout-over captionAlignment-undefined photo-gallery-done" galleryoptionsparams="{thumbnailsPerRow: 3, rowsToShow: 3, imageScaleMethod: true}" data-desktop-layout="pinterest" data-desktop-columns="3" data-element-type="dPhotoGalleryId" data-desktop-text-layout="over" id="1634329090" data-placeholder="false" data-rows-to-show="100" data-image-animation="fadeInUp" editablewidget="true" data-widget-type="photoGallery"> <ul class="dmPhotoGalleryHolder clearfix gallery shadowEffectToChildren gallery4inArow" id="1967177056">  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</ul> 
+ <div class="layout-container pinterest"><div class="photogallery-row" data-index="0"><div class="photogallery-column  column-3" data-index="0"><li class="photoGalleryThumbs pinterest-low animated fadeInUp" id="1229353205" data-index="0" style="animation-delay: 100ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1800928728"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore18.jpg" id="1998194467" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore18-640w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore18-1920w.jpg" id="1823111872" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1287804435"> <span class="caption-inner" id="1296503943"> <a class="caption-button dmWidget clearfix" id="1817216801" style=""> <span class="iconBg" id="1789094100"> <span class="icon hasFontIcon icon-star" id="1691354020"></span> 
+</span> 
+ <span class="text" id="1003936135">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li><li class="photoGalleryThumbs pinterest-high animated fadeInUp" id="1604335056" data-index="3" style="animation-delay: 400ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1736499172"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore16.jpg" id="1396759025" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore16-1280w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore16-1920w.jpg" id="1560512579" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1004566251"> <span class="caption-inner" id="1424527760"> <a class="caption-button dmWidget clearfix" id="1664284628" style=""> <span class="iconBg" id="1461863498"> <span class="icon hasFontIcon icon-star" id="1826444578"></span> 
+</span> 
+ <span class="text" id="1900571459">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li></div><div class="photogallery-column  column-3" data-index="1"><li class="photoGalleryThumbs pinterest-high animated fadeInUp" id="1269384311" data-index="1" style="animation-delay: 200ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1436944883"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore19.jpg" id="1039563924" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore19-1280w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore19-1920w.jpg" id="1561098935" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1180470672"> <span class="caption-inner" id="1202918121"> <a class="caption-button dmWidget clearfix" id="1496886204" style=""> <span class="iconBg" id="1654743646"> <span class="icon hasFontIcon icon-star" id="1246486705"></span> 
+</span> 
+ <span class="text" id="1572448455">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li><li class="photoGalleryThumbs pinterest-low animated fadeInUp" id="1809752643" data-index="4" style="animation-delay: 500ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1737252399"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore11.jpg" id="1086662536" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore11-640w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore11-1920w.jpg" id="1124108478" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1291143216"> <span class="caption-inner" id="1757990518"> <a class="caption-button dmWidget clearfix" id="1938357531" style=""> <span class="iconBg" id="1500039641"> <span class="icon hasFontIcon icon-star" id="1109249216"></span> 
+</span> 
+ <span class="text" id="1209110582">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li></div><div class="photogallery-column  column-3" data-index="2"><li class="photoGalleryThumbs pinterest-low animated fadeInUp" id="1012405428" data-index="2" style="animation-delay: 300ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1341213867"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore17.jpg" id="1990575285" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore17-640w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore17-1920w.jpg" id="1713032110" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1310192483"> <span class="caption-inner" id="1694577612"> <a class="caption-button dmWidget clearfix" id="1675425649" style=""> <span class="iconBg" id="1670294944"> <span class="icon hasFontIcon icon-star" id="1621842271"></span> 
+</span> 
+ <span class="text" id="1033010209">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li><li class="photoGalleryThumbs pinterest-high animated fadeInUp" id="1134444711" data-index="5" style="animation-delay: 600ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1247937957"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore15.jpg" id="1995743828" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore15-1280w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore15-1920w.jpg" id="1435189155" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1019185444"> <span class="caption-inner" id="1132636209"> <a class="caption-button dmWidget clearfix" id="1557736048" style=""> <span class="iconBg" id="1483282838"> <span class="icon hasFontIcon icon-star" id="1981150956"></span> 
+</span> 
+ <span class="text" id="1943788446">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li></div></div><div class="photogallery-row" data-index="2"><div class="photogallery-column  column-3" data-index="0"><li class="photoGalleryThumbs pinterest-low animated fadeInUp" id="1177918111" data-index="6" style="animation-delay: 700ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1063901604"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore12.jpg" id="1568384528" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore12-640w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore12-1920w.jpg" id="1773382140" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1667168566"> <span class="caption-inner" id="1336856008"> <a class="caption-button dmWidget clearfix" id="1182642200" style=""> <span class="iconBg" id="1936064591"> <span class="icon hasFontIcon icon-star" id="1052163080"></span> 
+</span> 
+ <span class="text" id="1970275581">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li><li class="photoGalleryThumbs pinterest-high animated fadeInUp" id="1428043532" data-index="9" style="animation-delay: 1000ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1712448250"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore10.jpg" id="1148569602" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore10-1280w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore10-1920w.jpg" id="1134489155" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1214701711"> <span class="caption-inner" id="1495436368"> <a class="caption-button dmWidget clearfix" id="1719758239" style=""> <span class="iconBg" id="1150405141"> <span class="icon hasFontIcon icon-star" id="1357070603"></span> 
+</span> 
+ <span class="text" id="1156670529">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li></div><div class="photogallery-column  column-3" data-index="1"><li class="photoGalleryThumbs pinterest-high animated fadeInUp" id="1168844042" data-index="7" style="animation-delay: 800ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1537307203"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore14.jpg" id="1131108352" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore14-1280w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore14-1920w.jpg" id="1475222183" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1360348306"> <span class="caption-inner" id="1276736737"> <a class="caption-button dmWidget clearfix" id="1621139914" style=""> <span class="iconBg" id="1430667852"> <span class="icon hasFontIcon icon-star" id="1190931186"></span> 
+</span> 
+ <span class="text" id="1256826099">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li><li class="photoGalleryThumbs pinterest-low animated fadeInUp" id="1729074932" data-index="10" style="animation-delay: 1100ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1242987389"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore9.jpg" id="1981780226" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore9-640w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore9-1920w.jpg" id="1693644752" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1256124289"> <span class="caption-inner" id="1076606198"> <a class="caption-button dmWidget clearfix" id="1800920818" style=""> <span class="iconBg" id="1605536766"> <span class="icon hasFontIcon icon-star" id="1633025610"></span> 
+</span> 
+ <span class="text" id="1012688923">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li></div><div class="photogallery-column  column-3" data-index="2"><li class="photoGalleryThumbs pinterest-low animated fadeInUp" id="1365227832" data-index="8" style="animation-delay: 900ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1010325635"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore13.jpg" id="1650028870" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore13-640w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore13-1920w.jpg" id="1460127817" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1149757550"> <span class="caption-inner" id="1256909634"> <a class="caption-button dmWidget clearfix" id="1693700223" style=""> <span class="iconBg" id="1253878440"> <span class="icon hasFontIcon icon-star" id="1655921493"></span> 
+</span> 
+ <span class="text" id="1585153776">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li><li class="photoGalleryThumbs pinterest-high animated fadeInUp" id="1131332902" data-index="11" style="animation-delay: 1200ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1105131447"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore8.jpg" id="1755387353" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore8-1280w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore8-1920w.jpg" id="1834449291" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1034920619"> <span class="caption-inner" id="1246934312"> <a class="caption-button dmWidget clearfix" id="1090902097" style=""> <span class="iconBg" id="1621884690"> <span class="icon hasFontIcon icon-star" id="1811986548"></span> 
+</span> 
+ <span class="text" id="1279384989">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li></div></div><div class="photogallery-row" data-index="4"><div class="photogallery-column  column-3" data-index="0"><li class="photoGalleryThumbs pinterest-low animated fadeInUp" id="1045647820" data-index="12" style="animation-delay: 1300ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1043967441"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore7.jpg" id="1465170032" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore7-640w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore7-1920w.jpg" id="1622812774" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1794681727"> <span class="caption-inner" id="1597203389"> <a class="caption-button dmWidget clearfix" id="1109048972" style=""> <span class="iconBg" id="1681760147"> <span class="icon hasFontIcon icon-star" id="1903573386"></span> 
+</span> 
+ <span class="text" id="1896556660">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li><li class="photoGalleryThumbs pinterest-high animated fadeInUp" id="1146523708" data-index="15" style="animation-delay: 1600ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1819691577"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore4.jpg" id="1177006441" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore4-1280w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore4-1920w.jpg" id="1828066026" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1506050946"> <span class="caption-inner" id="1036569505"> <a class="caption-button dmWidget clearfix" id="1370555444" style=""> <span class="iconBg" id="1443831258"> <span class="icon hasFontIcon icon-star" id="1022888112"></span> 
+</span> 
+ <span class="text" id="1486378358">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li></div><div class="photogallery-column  column-3" data-index="1"><li class="photoGalleryThumbs pinterest-high animated fadeInUp" id="1490794557" data-index="13" style="animation-delay: 1400ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1898884775"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore6.jpg" id="1310936208" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore6-1280w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore6-1920w.jpg" id="1043957073" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1947951232"> <span class="caption-inner" id="1694835404"> <a class="caption-button dmWidget clearfix" id="1743128023" style=""> <span class="iconBg" id="1317709491"> <span class="icon hasFontIcon icon-star" id="1408426905"></span> 
+</span> 
+ <span class="text" id="1708940679">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li><li class="photoGalleryThumbs pinterest-low animated fadeInUp" id="1301328722" data-index="16" style="animation-delay: 1700ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1496546902"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore2.jpg" id="1588424461" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore2-640w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore2-1920w.jpg" id="1685289007" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1775032631"> <span class="caption-inner" id="1163941674"> <a class="caption-button dmWidget clearfix" id="1578290408" style=""> <span class="iconBg" id="1849292363"> <span class="icon hasFontIcon icon-star" id="1828192786"></span> 
+</span> 
+ <span class="text" id="1453287121">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li></div><div class="photogallery-column  column-3" data-index="2"><li class="photoGalleryThumbs pinterest-low animated fadeInUp" id="1194341180" data-index="14" style="animation-delay: 1500ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1411703721"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore5.jpg" id="1852624784" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore5-640w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore5-1920w.jpg" id="1535732473" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1553587176"> <span class="caption-inner" id="1966433231"> <a class="caption-button dmWidget clearfix" id="1089444435" style=""> <span class="iconBg" id="1010348516"> <span class="icon hasFontIcon icon-star" id="1324769843"></span> 
+</span> 
+ <span class="text" id="1012157580">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li><li class="photoGalleryThumbs pinterest-high animated fadeInUp" id="1931854173" data-index="17" style="animation-delay: 1800ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1047794409"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore3.jpg" id="1541309093" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore3-1280w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore3-1920w.jpg" id="1128241126" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1651970647"> <span class="caption-inner" id="1219902121"> <a class="caption-button dmWidget clearfix" id="1469872080" style=""> <span class="iconBg" id="1005104953"> <span class="icon hasFontIcon icon-star" id="1407122758"></span> 
+</span> 
+ <span class="text" id="1239292268">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li></div></div><div class="photogallery-row" data-index="6"><div class="photogallery-column  column-3" data-index="0"><li class="photoGalleryThumbs pinterest-low animated fadeInUp" id="1080500323" data-index="18" style="animation-delay: 1900ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1358706359"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Salvatore1.jpg" id="1665296771" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore1-640w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore1-1920w.jpg" id="1602084331" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1641064675"> <span class="caption-inner" id="1442483974"> <a class="caption-button dmWidget clearfix" id="1577640856" style=""> <span class="iconBg" id="1202386330"> <span class="icon hasFontIcon icon-star" id="1584565273"></span> 
+</span> 
+ <span class="text" id="1179630884">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li><li class="photoGalleryThumbs pinterest-high animated fadeInUp" id="1379050203" data-index="21" style="animation-delay: 2200ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1911340809"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Papardella4.jpg" id="1100996822" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Papardella4-1280w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Papardella4-1920w.jpg" id="1883984377" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1146140773"> <span class="caption-inner" id="1162159538"> <a class="caption-button dmWidget clearfix" id="1877369020" style=""> <span class="iconBg" id="1925729218"> <span class="icon hasFontIcon icon-star" id="1201469970"></span> 
+</span> 
+ <span class="text" id="1879014926">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li></div><div class="photogallery-column  column-3" data-index="1"><li class="photoGalleryThumbs pinterest-high animated fadeInUp" id="1424367930" data-index="19" style="animation-delay: 2000ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1647361722"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Valtelina3.jpg" id="1078107990" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Valtelina3-1280w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Valtelina3-1920w.jpg" id="1431778998" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1848623370"> <span class="caption-inner" id="1376478086"> <a class="caption-button dmWidget clearfix" id="1758789245" style=""> <span class="iconBg" id="1213919989"> <span class="icon hasFontIcon icon-star" id="1281998174"></span> 
+</span> 
+ <span class="text" id="1282810455">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li><li class="photoGalleryThumbs pinterest-low animated fadeInUp" id="1154669369" data-index="22" style="animation-delay: 2300ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1217027156"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Tiramisu.jpg" id="1525280945" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Tiramisu-640w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Tiramisu-1920w.jpg" id="1055180308" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1703318011"> <span class="caption-inner" id="1118159253"> <a class="caption-button dmWidget clearfix" id="1657008761" style=""> <span class="iconBg" id="1970287277"> <span class="icon hasFontIcon icon-star" id="1364097302"></span> 
+</span> 
+ <span class="text" id="1979423195">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li></div><div class="photogallery-column  column-3" data-index="2"><li class="photoGalleryThumbs pinterest-low animated fadeInUp" id="1031058333" data-index="20" style="animation-delay: 2100ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1833299001"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Pomodori+Secci.jpg" id="1659631580" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Pomodori+Secci-640w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Pomodori+Secci-1920w.jpg" id="1374096337" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1244246503"> <span class="caption-inner" id="1623126978"> <a class="caption-button dmWidget clearfix" id="1737554909" style=""> <span class="iconBg" id="1984746232"> <span class="icon hasFontIcon icon-star" id="1410354893"></span> 
+</span> 
+ <span class="text" id="1844924251">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li><li class="photoGalleryThumbs pinterest-high animated fadeInUp" id="1429641504" data-index="23" style="animation-delay: 2400ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1346097217"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Panna-Cota4.jpg" id="1526091854" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Panna-Cota4-1280w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Panna-Cota4-1920w.jpg" id="1684700330" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1136199636"> <span class="caption-inner" id="1981258815"> <a class="caption-button dmWidget clearfix" id="1002572962" style=""> <span class="iconBg" id="1419785897"> <span class="icon hasFontIcon icon-star" id="1181100354"></span> 
+</span> 
+ <span class="text" id="1778755908">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li></div></div><div class="photogallery-row" data-index="8"><div class="photogallery-column  column-3" data-index="0"><li class="photoGalleryThumbs pinterest-low animated fadeInUp" id="1943321388" data-index="24" style="animation-delay: 2500ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1505382561"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Pancar-Carpaccio3.jpg" id="1979824777" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Pancar-Carpaccio3-640w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Pancar-Carpaccio3-1920w.jpg" id="1110236740" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1085115237"> <span class="caption-inner" id="1518741154"> <a class="caption-button dmWidget clearfix" id="1833438332" style=""> <span class="iconBg" id="1371854872"> <span class="icon hasFontIcon icon-star" id="1669540701"></span> 
+</span> 
+ <span class="text" id="1889791973">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li><li class="photoGalleryThumbs pinterest-high animated fadeInUp" id="1875078825" data-index="27" style="animation-delay: 2800ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1702341527"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Kroket4.jpg" id="1854631725" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Kroket4-1280w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Kroket4-1920w.jpg" id="1428291664" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1382056391"> <span class="caption-inner" id="1436019104"> <a class="caption-button dmWidget clearfix" id="1344131043" style=""> <span class="iconBg" id="1807243364"> <span class="icon hasFontIcon icon-star" id="1088007076"></span> 
+</span> 
+ <span class="text" id="1599428599">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li></div><div class="photogallery-column  column-3" data-index="1"><li class="photoGalleryThumbs pinterest-high animated fadeInUp" id="1969993870" data-index="25" style="animation-delay: 2600ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1058316762"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Kuskonmaz3.jpg" id="1087141838" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Kuskonmaz3-1280w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Kuskonmaz3-1920w.jpg" id="1239979045" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1266506911"> <span class="caption-inner" id="1871393624"> <a class="caption-button dmWidget clearfix" id="1681610931" style=""> <span class="iconBg" id="1416728424"> <span class="icon hasFontIcon icon-star" id="1304427469"></span> 
+</span> 
+ <span class="text" id="1056918099">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li><li class="photoGalleryThumbs pinterest-low animated fadeInUp" id="1148260701" data-index="28" style="animation-delay: 2900ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1141457211"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Fletto-Dimanzo1.jpg" id="1085872358" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Fletto-Dimanzo1-640w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Fletto-Dimanzo1-1920w.jpg" id="1126457057" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1875615658"> <span class="caption-inner" id="1016795903"> <a class="caption-button dmWidget clearfix" id="1278708784" style=""> <span class="iconBg" id="1152211414"> <span class="icon hasFontIcon icon-star" id="1538560348"></span> 
+</span> 
+ <span class="text" id="1134347068">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li></div><div class="photogallery-column  column-3" data-index="2"><li class="photoGalleryThumbs pinterest-low animated fadeInUp" id="1910365291" data-index="26" style="animation-delay: 2700ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1646945881"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Pancar-Carpaccio2.jpg" id="1516760690" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Pancar-Carpaccio2-640w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Pancar-Carpaccio2-1920w.jpg" id="1196916205" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1128925118"> <span class="caption-inner" id="1086816408"> <a class="caption-button dmWidget clearfix" id="1835821638" style=""> <span class="iconBg" id="1965475762"> <span class="icon hasFontIcon icon-star" id="1909742823"></span> 
+</span> 
+ <span class="text" id="1848571231">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li><li class="photoGalleryThumbs pinterest-high animated fadeInUp" id="1697416383" data-index="29" style="animation-delay: 3000ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1657632013"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Caprese4.jpg" id="1331691616" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Caprese4-1280w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Caprese4-1920w.jpg" id="1109351358" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1501032853"> <span class="caption-inner" id="1304904504"> <a class="caption-button dmWidget clearfix" id="1994558489" style=""> <span class="iconBg" id="1603840735"> <span class="icon hasFontIcon icon-star" id="1782516535"></span> 
+</span> 
+ <span class="text" id="1778371528">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li></div></div><div class="photogallery-row" data-index="10"><div class="photogallery-column  column-3" data-index="0"><li class="photoGalleryThumbs pinterest-low animated fadeInUp" id="1537715884" data-index="30" style="animation-delay: 3100ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1316121285"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Calamar-Linguini4.jpg" id="1518256046" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Calamar-Linguini4-640w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Calamar-Linguini4-1920w.jpg" id="1911199020" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1540030199"> <span class="caption-inner" id="1757544589"> <a class="caption-button dmWidget clearfix" id="1850109518" style=""> <span class="iconBg" id="1044738577"> <span class="icon hasFontIcon icon-star" id="1504816610"></span> 
+</span> 
+ <span class="text" id="1792076065">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li></div><div class="photogallery-column  column-3" data-index="1"><li class="photoGalleryThumbs pinterest-high animated fadeInUp" id="1917819816" data-index="31" style="animation-delay: 3200ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1855825502"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Calamarata1.jpg" id="1709540267" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Calamarata1-1280w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Calamarata1-1920w.jpg" id="1118553148" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1483489027"> <span class="caption-inner" id="1268405988"> <a class="caption-button dmWidget clearfix" id="1301881748" style=""> <span class="iconBg" id="1064098573"> <span class="icon hasFontIcon icon-star" id="1552813684"></span> 
+</span> 
+ <span class="text" id="1005926335">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li></div><div class="photogallery-column  column-3" data-index="2"><li class="photoGalleryThumbs pinterest-low animated fadeInUp" id="1640113778" data-index="32" style="animation-delay: 3300ms;"> <div class="thumbnailInnerWrapper" style="opacity: 1;"><div class="image-container revealed" id="1051111145"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/Burata1.jpg" id="1321025491" style="background-image: url(&quot;https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Burata1-640w.jpg&quot;);"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Burata1-1920w.jpg" id="1157326227" onerror="handleImageLoadError(this)"></a> 
+</div><div class="caption-container" style="display:none" id="1615204904"> <span class="caption-inner" id="1350925615"> <a class="caption-button dmWidget clearfix" id="1485600713" style=""> <span class="iconBg" id="1746903616"> <span class="icon hasFontIcon icon-star" id="1825671517"></span> 
+</span> 
+ <span class="text" id="1778465504">Düğme</span> 
+</a> 
+</span> 
+</div></div> 
+  
+</li></div></div></div><div class="photoGalleryViewAll link" isall="true" data-viewall="Daha Fazla Görüntüle" data-viewless="daha az görüntüle" style="display:none;" id="1709279657">Daha Fazla Görüntüle</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="sticky-widgets-container-global" id="1070102223"> <div class="widget-5bd886 u_1912696207 sticky-desktop-position-bottom-right sticky-mobile-position-bottom-right dmCustomWidget" data-lazy-load="" data-title="" id="1912696207" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="5bd886efb15a44fd98f083f461519ec8" data-widget-version="226" data-widget-config="eyJ3YU51bWJlciI6IjkwNTQxMzAwODY3NiIsImJ0blRleHQiOiJXaGF0c0FwcCBiaXplIiwiZGVmYXVsdE1lc3NhZ2UiOiIiLCJhbHQiOiJXaGF0c0FwcCYjMzk7dGEgYml6ZSBtZXNhaiBnw7ZuZGVyaW4iLCJ3YUxheW91dCI6Imljb25Pbmx5In0=" data-widget-initialized=""> <a class="align-center full" target="_blank" data-display-type="block" href="https://web.whatsapp.com/send?phone=905413008676&amp;text="> <span class="full iconBg"> <span class="full icon"><img class="full" src="./resim25_files/whatsapp_layout_5.svg" alt="WhatsApp&#39;ta bize mesaj gönderin" onerror="handleImageLoadError(this)"></span> 
+</span> 
+</a> 
+</div> 
+</div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="u_fcontainer f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div data-auto="flex-section" id="1817457223" data-flex-id="639f4ba4a5742e74031cb9fc" data-layout-section=""> <div class="flex-widgets-container" id="1075504219"></div> 
+ <section id="639f4ba4a5742e74031cb9fb" class="flex-element section" data-auto="flex-element-section"> <div id="639f4ba4a5742e74031cb9fd" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="639f4ba4a5742e74031cb9fe" class="flex-element group" data-auto="flex-element-group"> <div id="639f4ba4a5742e74031cba00" class="flex-element group" data-auto="flex-element-group"> <div id="widget_8sv" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="image" data-keep-proportion="true" data-external-id="1661090881"> <div class="imageWidget align-center u_1661090881" data-element-type="image" data-widget-type="image" id="1661090881" editablewidget="true"><img src="./resim25_files/salvatore-logo-1920w.png" alt="" id="1519303666" class="" data-dm-image-path="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/salvatore-logo.png" width="963" height="784" onerror="handleImageLoadError(this)"></div> 
+</div> 
+ <div id="639f4c1ba5742e74031cceaa" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="socialhub" data-external-id="1788238744"> <div class="align-center text-align-center u_1788238744 dmSocialHub" id="1788238744" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://www.facebook.com/salvatoreistanbul/" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Facebook&#39;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="mailto:rezervasyon@osteria-salvatore.com" dm_dont_rewrite_url="true" aria-label="email" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Email&#39;)" target="_blank"> <span class="dmSocialEmail dm-social-icons-email oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.instagram.com/salvatoreistanbul/" target="_blank" dm_dont_rewrite_url="true" aria-label="instagram" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Instagram&#39;)"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="639f4c39a5742e74031cd596" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1096483598"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1096483598" style=""> <h4 class="text-align-center m-text-align-center size-24 m-size-19"> <span class="font-size-24 m-font-size-19" style="color:rgb(180, 138, 75);display:unset;">Salvatore'u ziyaret edin</span> 
+</h4> 
+</div> 
+</div> 
+ <div id="widget_5ad" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1309544947"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1309544947" style=""><p class="m-text-align-center text-align-center"> <span style="display:unset;">Çengelköy Mahallesi, Kuleli CaddesiNo:45/1 Çengelköy, Istanbul</span> 
+</p></div> 
+</div> 
+</div> 
+ <div id="639f4ba4a5742e74031cb9ff" class="flex-element group" data-auto="flex-element-group"> <div id="639f4caba5742e74031ce4a9" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1858923108"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1858923108" style=""> <h4 class="text-align-center m-text-align-center m-size-19 size-24"> <span class="font-size-24 m-font-size-19" style="color:rgb(180, 138, 75);display:unset;">Saat</span> 
+</h4> 
+</div> 
+</div> 
+ <div id="639f4cb0a5742e74031ce639" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1688261454"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1688261454" style=""><p class="text-align-center m-text-align-center"> <span style="font-weight:bold;display:initial;">Pzt - Perşembe: 12:00 - 00:00</span> 
+</p><p class="text-align-center m-text-align-center"> <span style="font-weight:bold;display:initial;">Cum - Paz: 12:00 - 02:00</span> 
+</p></div> 
+</div> 
+ <div id="639f4cf7a5742e74031ceb34" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="link" data-external-id="1947137391"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient u_1947137391" file="false" href="https://www.google.com/search?q=salvatore+osteria&amp;rlz=1C5CHFA_enTR977TR977&amp;oq=salvatore+osteria&amp;aqs=chrome.0.35i39i355j46i39i175i199j0i22i30l3j69i60l3.4885j0j7&amp;sourceid=chrome&amp;ie=UTF-8#" data-element-type="dButtonLinkId" id="1947137391" target="_blank"> <span class="iconBg" aria-hidden="true" id="1063117834"> <span class="icon hasFontIcon icon-star" id="1114898112"></span> 
+</span> 
+ <span class="text" id="1995027828">Yol Tarifi Alın</span> 
+</a> 
+</div> 
+ <div id="639f4e1ea5742e74031d0d06" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="custom" data-external-id="1319783624"> <div class="widget-1f5975 u_1319783624 dmCustomWidget" data-lazy-load="" data-title="" id="1319783624" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="1f5975986930429f819d4cd2154b5c4a" data-widget-version="22" data-widget-config="eyJjb3B5cmlnaHRUZXh0IjoiIDxwIGNsYXNzPVwicnRlQmxvY2tcIj5UJnV1bWw7bSBIYWtsYXLEsSBTYWtsxLFkxLFyIHwgU2FsdmF0b3JlIE9zdGVyaWE8L3A+IFxuIn0="> <div class="copyright"> <div>© 2023&nbsp;</div> 
+ <div> <p class="rteBlock">Tüm Hakları Saklıdır | Salvatore Osteria</p> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="group_e2t" class="flex-element group" data-auto="flex-element-group"> <div id="639f4d23a5742e74031cf644" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1156890672"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1156890672" style=""> <h4 class="text-align-center m-text-align-center m-size-19 size-24"><span style="display: unset; color: rgb(180, 138, 75);" class="font-size-24 m-font-size-19">Bize Ulaşın</span></h4> 
+</div> 
+</div> 
+ <div id="639f4d41a5742e74031cfdc8" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1779974589"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1779974589" style=""><p class="text-align-center"> <span style="font-weight:bold;display:initial;text-decoration:none;">Telefon:  90 216 422 70 01</span> 
+</p><p class="text-align-center"> <span style="font-weight:bold;display:initial;text-decoration:none;">Telefon:  90 216 422 57 03E-Mail: rezervasyon@osteria-salvatore.com</span> 
+</p><p class="text-align-center m-text-align-center"><br></p></div> 
+</div> 
+ <div id="widget_s85" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="form" data-external-id="1036707805"> <div class="dmform default native-inputs u_1036707805" data-element-type="dContactUsRespId" captcha="true" data-require-captcha="true" data-captcha-position="bottomleft" id="1036707805"> <h3 class="dmform-title dmwidget-title" id="1761160029">Daha Fazla Bilgi İçin Kaydolun</h3> 
+ <div class="dmform-wrapper" id="1490276305" captcha-lang="tr"> <form method="post" class="dmRespDesignRow" locale="ENGLISH" id="1413586519"> <div class="dmforminput required  small-12 dmRespDesignCol medium-12 large-12" id="1470724473"> <label for="1384606780" id="1493922607" class="" hide="true" data-dm-for="dmform-1">E-posta</label> 
+<input type="email" class="" name="dmform-1" id="1384606780" placeholder="E-postanızı Yazın" data-placeholder-original="E-postanızı Yazın"><input type="hidden" name="label-dmform-1" value="E-posta" id="1397488574"></div> 
+ <div class="dmforminput small-12 dmRespDesignCol required newLine medium-12 large-12" id="1752802239"> <label for="22605" id="1949865532" class="" hide="true" data-dm-for="dmform-2">Opt-In</label> 
+ <div class="optinwrapper" id="1244811246"> <div id="24493" class="contact-checkable-container"> <label for="22605" class="for-checkable" id="1810975433"><input type="checkbox" value="true" name="dmform-2" id="22605" class="checkable-input"> <div id="32611"><p class="rteBlock" id="1832564752">Kişisel Verilerimin İşlenmesini Kabul Ediyorum</p></div> 
+ <span class="img-wrapper" id="1852556212"></span> 
+ <span class="img-wrapper"><img alt="" id="68410" class="contact-checkable-img" onerror="handleImageLoadError(this)"></span> 
+</label> 
+</div> 
+</div> 
+<input type="hidden" name="label-dmform-2" value="Opt-In" id="1548706247" class=""></div> 
+ <span id="undefined_clear" class="dmWidgetClear"></span> 
+ <div class="dmformsubmit dmWidget R" id="1658337177"><input class="" name="submit" type="submit" value="Bize katılın" id="1332881257"></div> 
+<input name="dmformsendto" type="hidden" value="O0wrseIfFLtaJ3h5yG65UJb50yJXN1/19qmEB5DC8i20KC+RXAj1bRQi5mZSs5x9/9omfnF4wi7tM/CroKb6TA==" id="1988619453" class="" data-dec="true"><input class="dmActionInput" type="hidden" name="action" value="/_dm/s/rt/widgets/dmform.submit.jsp" id="1411718204"><input name="dmformsubject" type="hidden" value="Web Sitesi Bülteni" id="1921785382" class="" data-email-subject="Website Newsletter"><input name="dmformfrom" type="hidden" value="Salvatore Osteria Website" id="1545196094" class=""></form> 
+</div> 
+ <div class="dmform-success" style="display:none" id="1843396703">Bizimle iletişime geçtiğiniz için teşekkür ederiz. En kısa sürede size geri döneceğiz.</div> 
+ <div class="dmform-error" style="display:none" id="1162187056">Hata! Mesajınız gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+ <div data-auto="flex-section" id="1717174741" data-flex-id="6450df64d525653f2f887462" data-layout-section=""> <div class="flex-widgets-container" id="1108636849"></div> 
+ <section id="6450df64d525653f2f887463" class="flex-element section" data-auto="flex-element-section"> <div id="6450df64d525653f2f887464" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="6450df64d525653f2f887466" class="flex-element group" data-auto="flex-element-group"> <div id="6450df64d525653f2f887465" class="flex-element group" data-auto="flex-element-group"> <div id="6450df64d525653f2f887467" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="link" data-external-id="1502356530"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient u_1502356530" file="true" href="https://irp.cdn-website.com/2bbfe30e/files/uploaded/6698%20SAYILI%20K%C4%B0%C5%9E%C4%B0SEL%20VER%C4%B0LER%C4%B0N%20KORUNMASI%20KANUNU%20GERE%C4%9E%C4%B0NCE%20B%C4%B0LG%C4%B0LEND%C4%B0RME%20METN%C4%B0.docx" data-element-type="dButtonLinkId" id="1502356530" target="_blank"> <span class="iconBg" aria-hidden="true" id="1536709303"> <span class="icon hasFontIcon icon-star" id="1224763706"></span> 
+</span> 
+ <span class="text" id="1118544382">KVKK</span> 
+</a> 
+</div> 
+ <div id="6450df64d525653f2f887468" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="link" data-external-id="1683543603"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient u_1683543603" file="true" href="https://irp.cdn-website.com/2bbfe30e/files/uploaded/TURKCE%20BA%C5%9EVURU%20FORMU.docx" data-element-type="dButtonLinkId" id="1683543603" target="_blank"> <span class="iconBg" aria-hidden="true" id="1887138686"> <span class="icon hasFontIcon icon-star" id="1600613943"></span> 
+</span> 
+ <span class="text" id="1956155793">BAŞVURU FORMU</span> 
+</a> 
+</div> 
+ <div id="6450df64d525653f2f887469" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="link" data-external-id="1916574815"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient u_1916574815" file="true" href="https://irp.cdn-website.com/2bbfe30e/files/uploaded/K%C4%B0%C5%9E%C4%B0SEL%20VER%C4%B0%20%C4%B0%C5%9ELENMES%C4%B0NE%20%C4%B0L%C4%B0%C5%9EK%C4%B0N%20A%C3%87IK%20RIZA%20METN1.docx" data-element-type="dButtonLinkId" id="1916574815" target="_blank"> <span class="iconBg" aria-hidden="true" id="1215361235"> <span class="icon hasFontIcon icon-star" id="1454442809"></span> 
+</span> 
+ <span class="text" id="1244877307">AÇIK RIZA METNİ</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+ <div data-auto="flex-section" id="1748550947" data-flex-id="639f4f33a5742e74031d47d9" data-layout-section=""> <div class="flex-widgets-container" id="1674428920"></div> 
+ <section id="639f4f33a5742e74031d47d8" class="flex-element section" data-auto="flex-element-section"> <div id="639f4f33a5742e74031d47da" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="639f4f33a5742e74031d47db" class="flex-element group" data-auto="flex-element-group"> <div id="639f4f33a5742e74031d47dc" class="flex-element group" data-auto="flex-element-group"> <div id="639f4f50a5742e74031d4e2a" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="image" data-keep-proportion="true" data-external-id="1378084324"> <div class="imageWidget align-center u_1378084324" data-element-type="image" data-widget-type="image" id="1378084324" editablewidget="true"> <a href="https://www.musedigitals.com/" id="1468844096" class="" target="_blank" file="false"><img src="./resim25_files/muse-white-new-cs-1920w.png" alt="" id="1054361485" class="" data-dm-image-path="https://irp.cdn-website.com/2bbfe30e/dms3rep/multi/muse-white-new-cs.png" width="227" height="43" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+</div> 
+ <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="showOnMedium layout-drawer-hamburger hamburger-on-header" id="layout-drawer-hamburger" role="button" aria-label="menu opener" tabindex="0"> <span class="hamburger__slice"></span> 
+ <span class="hamburger__slice"></span> 
+ <span class="hamburger__slice"></span> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+    </div>
+</div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<!-- ========= JS Section ========= -->
+
+<script>
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    window.collections = {};
+    window.currentLanguage = "TURKISH"
+    window.isSitePreview = false;
+</script>
+<script>
+    window.customWidgetsFunctions["5bd886efb15a44fd98f083f461519ec8~226"] = function (element, data, api) {
+        
+$(element).find('a').each(function() {
+    var href = buildNewHref(cleanPhoneText(data.config.waNumber), cleanAndEncodeText(data.config.defaultMessage));
+    $(this).attr('href', href);
+    
+    function handleClick(){
+        dm_gaq_push_event && dm_gaq_push_event('Whatsapp', 'click')
+        window.dmsnowplow && window.snowplow('trackStructEvent', 'Whatsapp-share','click')
+    }
+    
+    element.addEventListener("click", handleClick)
+
+})
+
+function cleanPhoneText(phone) {
+    return phone ? phone.replace(/[^0-9]/g, '') : "";
+}
+
+function cleanAndEncodeText(text) {
+    var returnString="";
+    if (text) {
+        returnString = text.replace(/<br>/g, '\n');
+        returnString = encodeURIComponent(returnString);
+    }
+    return returnString;
+}
+
+function buildNewHref (phone, text) {
+    var href;
+    if (data.inEditor) {
+        //editor is on touch device
+        if (window.isMobileDevice || window.parent.isTouchDevice) {
+            href = "https://wa.me/" + ( phone ? ( phone + '?' ) : '?' ) + "text=" + text;
+        }
+        //etitor on desktop
+        else {
+            href = "https://web.whatsapp.com/send?phone=" + phone + "&text=" + text;
+        }
+    }
+    // not in editor - runtime
+    else {
+         if (data.device === "desktop") {
+             href = "https://web.whatsapp.com/send?phone=" + phone + "&text=" + text;
+         }
+         //on touch device
+         else {
+             href = "https://wa.me/" + ( phone ? ( phone + '?' ) : '?' ) + "text=" + text;
+         }
+    }
+    return href;
+}
+
+    };
+</script>
+<script type="text/javascript">
+
+    var d_version = "22..24";
+    var build = "2023-05-24T06_51_53";
+    window['v'+'ersion'] = d_version;
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2023-05-24T06_51_53";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            }
+            else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+
+
+</script>
+<!-- Load jQuery -->
+<script type="text/javascript" id="d-js-jquery" src="./resim25_files/jquery-3.6.0.min.js.indir"></script>
+<!-- End Load jQuery -->
+
+<!-- Injecting site-wide before scripts -->
+<!-- End Injecting site-wide to the head -->
+
+
+<script>
+    var _jquery = window.$;
+
+    var jqueryAliases = ['$', 'jquery', 'jQuery'];
+
+    jqueryAliases.forEach((alias) => {
+        Object.defineProperty(window, alias, {
+            get() {
+                return _jquery;
+            },
+            set() {
+                console.warn("Trying to over-write the global jquery object!");
+            }
+        });
+    });
+
+</script>
+<script>
+    window.cookiesNotificationMarkupPreview = 'null';
+</script>
+
+<!-- HEAD RT JS Include -->
+<script id="d-js-params">
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.multiscreensite.com';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["google.places.key"] = 'AIzaSyBAwUOqPUB1CU31yDztoZYaUE7sPv4ktEI';
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.opencage.token"] = '319e14f32bcce967ba55cd263478796d';
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"]=true;
+    rtCommonProps["common.build.dist.folder"]='production/3453';
+    rtCommonProps["common.resources.cdn.host"]='https://static.cdn-website.com';
+    rtCommonProps["common.resources.folder"]='https://static.cdn-website.com/mnlt/production/3453';
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"]=true;
+    rtCommonProps["feature.flag.runtime.photoswipe.fix"]=true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"]=true;
+    rtCommonProps["feature.flag.runtime.newAnimation.respectCssAnimationProps.enabled"]=true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"]=true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"]=true;
+    rtCommonProps["feature.flag.runOnReadyNewTask"]=true;
+    rtCommonProps["feature.flag.addTargetBlankToExternalLinks"]=true;
+    rtCommonProps["unsuspendEcwidStoreOnRuntime.enabled"]=true;
+    rtCommonProps["keyboard.navigation.enabled"]=true;
+    rtCommonProps["scripts.widgetCount.enabled"]=true;
+
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'here';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["modules.resources.cdn"] =true;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://lirp.cdn-website.com/';
+    rtCommonProps["ecom.ecwid.categoryPage.modifyLinks"] = true;
+    rtCommonProps["ecom.ecwidNewUrlStructure.enabled"] = false;
+    rtCommonProps["facebook.api.version"] = '7.0';
+    rtCommonProps["runtime.save.restore.function.bind"] =true;
+    rtCommonProps["feature.flag.photo.gallery.exact.size"] =false;
+    rtCommonProps["new.store.fix.ecwid.back.bug"] =true;
+    rtCommonProps["new.store.accountPage.ecwid.signIn.fix"] =true;
+    rtCommonProps["fix.ecwid.sign.in.page.with.return.url"] =true;
+    rtCommonProps["site.runtime.video.background.ssr"] =true;
+    rtCommonProps["geocode.search.localize"] =false; 
+    rtCommonProps["facebook.runtime.widgets.upgrade"] =true;
+    rtCommonProps["feature.flag.runtime.inp.threshold"] =150;
+    rtCommonProps["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+    rtCommonProps["feature.flag.performance.logs"]=true;
+    rtCommonProps["site.contact.form.fix.for.attribute"]=true;
+    rtCommonProps["site.widget.form.captcha.type"]='g_recaptcha';
+    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+    rtCommonProps["contact.form.date.format.enabled"] = true;
+    rtCommonProps["platform.monolith.personalization.userVisitsCondition.inClient.enabled"] = true;
+	rtCommonProps["ecom.widgets.menu.categories.toggles.enabled"] =  false;
+    rtCommonProps["filestack.uploadToTempBucket.enabled"] = false;
+</script>
+<script src="./resim25_files/d-js-one-runtime-unified-desktop.min.js.indir" id="d-js-core"></script>
+<!-- End of HEAD RT JS Include -->
+<script src="./resim25_files/d-js-jquery-migrate.min.js.indir"></script>
+<script>jQuery.DM.updateWidthAndHeight();
+$(window).resize(function () {
+    
+});
+$(window).bind("orientationchange", function (e) {
+    $.layoutManager.initLayout();
+    
+});
+$(document).resize(function () {
+    
+});
+</script>
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+ 	var campaign = (/utm_campaign=([^&]*)/).exec(window.location.search);
+
+ 	if (campaign && campaign != null && campaign.length > 1) {
+ 		campaign = campaign[1];
+ 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+ 	}
+}());
+</script>
+<script type="text/javascript">
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+  
+<script type="text/javascript" id="d_track_sp">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd32hwlnfiv2gyn.cloudfront.net', { // Initialise a tracker
+  appId: '2bbfe30e'
+});
+
+dmsnowplow('trackPageView')
+$.each(_dm_insite, function(idx, rule) {
+	//('trackStructEvent', 'category','action','label','property','value');
+			// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+	        // the tracking is in popup.js
+			if (rule.actionName !== "popup") {
+                dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+            }
+ 			$(document).ready(function(){
+ 				$.DM.events.trigger('event-ruleTriggered', {value: rule})}
+ 			);
+ 		});
+</script>
+   <div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp pswp--supports-fs pswp--open pswp--notouch pswp--css_animation pswp--svg pswp--animated-in pswp--zoom-allowed pswp--visible" tabindex="-1" role="dialog" aria-hidden="false" style="position: fixed; opacity: 1;">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg" style="opacity: 1;"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container" style="transform: translate3d(0px, 0px, 0px);">
+            <div class="pswp__item" style="display: block; transform: translate3d(-1872px, 0px, 0px);"><div class="pswp__zoom-wrap" style="transform: translate3d(270px, 44px, 0px) scale(0.706654);"><div class="pswp__img pswp__img--placeholder pswp__img--placeholder--blank" style="width: 1600px; height: 1067px; display: none;"></div><img class="pswp__img" src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore4-1920w.jpg" style="width: 1600px; height: 1067px; backface-visibility: hidden;"></div></div>
+            <div class="pswp__item" style="transform: translate3d(0px, 0px, 0px);"><div class="pswp__zoom-wrap" style="transform: translate3d(270px, 44px, 0px) scale(0.707317);"><div class="pswp__img pswp__img--placeholder pswp__img--placeholder--blank" style="width: 1600px; height: 1066px; display: none;"></div><img class="pswp__img" src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore2-1920w.jpg" style="display: block; width: 1600px; height: 1066px; backface-visibility: hidden;"></div></div>
+            <div class="pswp__item" style="display: block; transform: translate3d(1872px, 0px, 0px);"><div class="pswp__zoom-wrap" style="transform: translate3d(270px, 44px, 0px) scale(0.706654);"><div class="pswp__img pswp__img--placeholder pswp__img--placeholder--blank" style="width: 1600px; height: 1067px; display: none;"></div><img class="pswp__img" src="https://lirp.cdn-website.com/2bbfe30e/dms3rep/multi/opt/Salvatore3-1920w.jpg" style="width: 1600px; height: 1067px; backface-visibility: hidden;"></div></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--fit">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter">17 / 33</div>
+
+                <button class="pswp__button pswp__button--close" title="Kapatın (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Paylaş"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Tam ekrana geç"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Yaklaş/uzaklaş"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Önceki (sola ok)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Sonraki (sağa ok)">
+            </button>
+
+            <div class="pswp__caption pswp__caption--fake"><div class="pswp__caption__center"></div></div><div class="pswp__caption pswp__caption--empty">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root" data-locale="tr_TR"></div>
+<!-- Alias: 2bbfe30e -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+// Collects client data and updates cookies used by smart sites
+var expireDays = 365,visitLength = 30 * 60000;
+$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), expireDays);
+function setSmartSiteCookies() {
+	setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+}
+$.DM.events.on("afterAjax", setSmartSiteCookies);
+setSmartSiteCookies();
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'MORE';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'LESS';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+<script>
+    jQuery(window).on('load', function () {
+        try {
+            jQuery.DM.updateIOSHeight();
+        } catch (e) {
+        }
+    });
+</script>
+<script>
+    dmAPI.loadScript(
+        window.rtCommonProps['common.resources.cdn.host'] + '/libs/lozad/1.15.0/lozad.min.js',
+        function () {
+            dmAPI.runOnReady('lozadInit', function () {
+                window.document.querySelectorAll('img.lazy').forEach(function (img) {
+                    img.addEventListener('load', function (event) {
+                        var img = event.target;
+                        img.style.filter = 'blur(0)';
+                        setTimeout(function () {
+                            $(img).closest('.imageWidget').addClass('lazyLoaded');
+                        }, 250)
+                    });
+                });
+                lozad('.lazy', {
+                    threshold: 0.1,
+                    loaded: function (element) {
+                        if (element.getAttribute('data-background-image')) {
+                            element.style.setProperty(
+                                'background-image',
+                                "url('" + element.getAttribute('data-background-image') + "')",
+                                "important"
+                            );
+                        }
+                    }
+                }).observe();
+            });
+        }
+    );
+</script>
+<!--  End Script tags -->
+
+<!--  Site Wide Html Markup -->
+<!--  Site Wide Html Markup -->
+
+
+<script>
+		function returnCommentSymbol(language = "javascript") {
+			const languageObject = {
+				bat: "@REM",
+				c: "//",
+				csharp: "//",
+				cpp: "//",
+				closure: ";;",
+				coffeescript: "#",
+				dockercompose: "#",
+				css: "/*DELIMITER*/",
+				"cuda-cpp": "//",
+				dart: "//",
+				diff: "#",
+				dockerfile: "#",
+				fsharp: "//",
+				"git-commit": "//",
+				"git-rebase": "#",
+				go: "//",
+				groovy: "//",
+				handlebars: "{{!--DELIMITER--}}",
+				hlsl: "//",
+				html: "<!--DELIMITER-->",
+				ignore: "#",
+				ini: ";",
+				java: "//",
+				javascript: "//",
+				javascriptreact: "//",
+				json: "//",
+				jsonc: "//",
+				julia: "#",
+				latex: "%",
+				less: "//",
+				lua: "--",
+				makefile: "#",
+				markdown: "<!--DELIMITER-->",
+				"objective-c": "//",
+				"objective-cpp": "//",
+				perl: "#",
+				perl6: "#",
+				php: "<!--DELIMITER-->",
+				powershell: "#",
+				properties: ";",
+				jade: "//-",
+				python: "#",
+				r: "#",
+				razor: "<!--DELIMITER-->",
+				restructuredtext: "..",
+				ruby: "#",
+				rust: "//",
+				scss: "//",
+				shaderlab: "//",
+				shellscript: "#",
+				sql: "--",
+				svg: "<!--DELIMITER-->",
+				swift: "//",
+				tex: "%",
+				typescript: "//",
+				typescriptreact: "//",
+				vb: "'",
+				xml: "<!--DELIMITER-->",
+				xsl: "<!--DELIMITER-->",
+				yaml: "#"
+			}
+			if(!languageObject[language]){
+				return languageObject["python"].split("DELIMITER")
+			}
+			return languageObject[language].split("DELIMITER")
+		}
+		var savedChPos = 0
+		var returnedSuggestion = ''
+		let editor, doc, cursor, line, pos
+		pos = {line: 0, ch: 0}
+		var suggestionsStatus = false
+		var docLang = "python"
+		var suggestionDisplayed = false
+		var isReturningSuggestion = false
+		document.addEventListener("keydown", (event) => {
+		setTimeout(()=>{
+			editor = event.target.closest('.CodeMirror');
+			if (editor){
+				const codeEditor = editor.CodeMirror
+				if(!editor.classList.contains("added-tab-function")){
+					editor.classList.add("added-tab-function")
+					codeEditor.removeKeyMap("Tab")
+					codeEditor.setOption("extraKeys", {Tab: (cm)=>{
+
+						if(returnedSuggestion){
+							acceptTab(returnedSuggestion)
+						}
+						else{
+							cm.execCommand("defaultTab")
+						}
+					}})
+				}
+				doc = editor.CodeMirror.getDoc()
+				cursor = doc.getCursor()
+				line = doc.getLine(cursor.line)
+				pos = {line: cursor.line, ch: line.length}
+
+				if(cursor.ch > 0){
+					savedChPos = cursor.ch
+				}
+
+				const fileLang = doc.getMode().name
+				docLang = fileLang
+				const commentSymbol = returnCommentSymbol(fileLang)
+				if (event.key == "?"){
+					var lastLine = line
+					lastLine = lastLine.slice(0, savedChPos - 1)
+
+					if(lastLine.trim().startsWith(commentSymbol[0])){
+						if(fileLang !== "null"){
+							lastLine += " "+ fileLang
+						}
+						
+						lastLine = lastLine.split(commentSymbol[0])[1]
+						window.postMessage({source: 'getQuery', payload: { data: lastLine } } )
+						isReturningSuggestion = true
+						displayGrey("\nBlackbox loading...")
+					}
+				}else if(event.key === "Enter" && suggestionsStatus && !isReturningSuggestion){
+					var query = doc.getRange({ line: Math.max(0,cursor.line-50), ch: 0 }, { line: cursor.line, ch: line.length })
+					window.postMessage({source: 'getSuggestion', payload: { data: query, language: docLang, cursorPos: pos } } )
+					displayGrey("Blackbox loading...")
+				}else if(event.key === "ArrowRight" && returnedSuggestion){
+					acceptTab(returnedSuggestion)
+				}else if(event.key === "Enter" && isReturningSuggestion){
+					displayGrey("\nBlackbox loading...")
+				}else if(event.key === "Escape"){
+					displayGrey("")
+				}
+			}
+		}, 0)
+		})
+
+		function acceptTab(text){
+		if (suggestionDisplayed){
+			displayGrey("")
+			doc.replaceRange(text, pos)
+			returnedSuggestion = ""
+			updateSuggestionStatus(false)
+		}
+		}
+		function acceptSuggestion(text){
+			displayGrey("")
+			doc.replaceRange(text, pos)
+			returnedSuggestion = ""
+			updateSuggestionStatus(false)
+		}
+		function displayGrey(text){
+			if(!text){
+				document.querySelector(".blackbox-suggestion").remove()
+				return
+			}
+			var el = document.querySelector(".blackbox-suggestion")
+			if(!el){
+				el = document.createElement('span')
+				el.classList.add("blackbox-suggestion")
+				el.style = 'color:grey'
+				el.innerText = text
+			}
+			else{
+				el.innerText = text
+			}
+			
+			var lineIndex = pos.line;
+			editor.getElementsByClassName('CodeMirror-line')[lineIndex].appendChild(el)
+		}
+		function updateSuggestionStatus(s){
+			suggestionDisplayed = s
+			window.postMessage({source: 'updateSuggestionStatus', status: suggestionDisplayed, suggestion: returnedSuggestion})
+		}
+		window.addEventListener('message', (event)=>{
+		if (event.source !== window ) return
+		if (event.data.source == 'return'){
+			isReturningSuggestion = false
+			const formattedCode = formatCode(event.data.payload.data)
+			returnedSuggestion = formattedCode
+			displayGrey(formattedCode)
+			updateSuggestionStatus(true)
+		}
+		if(event.data.source == 'suggestReturn'){
+			const prePos = event.data.payload.cursorPos
+			if(pos.line == prePos.line && pos.ch == prePos.ch){
+				returnedSuggestion = event.data.payload.data
+				displayGrey(event.data.payload.data)
+				updateSuggestionStatus(true)
+			}
+			else{
+				displayGrey()
+			}
+		}
+		if(event.data.source == 'codeSearchReturn'){
+			isReturningSuggestion = false
+			displayGrey()
+		}
+		if(event.data.source == 'suggestionsStatus'){
+			suggestionsStatus = event.data.payload.enabled
+		}
+		if(event.data.source == 'acceptSuggestion'){
+			
+			acceptSuggestion(event.data.suggestion)
+		}
+		})
+		document.addEventListener("keyup", function(){
+			returnedSuggestion = ""
+			updateSuggestionStatus(false)
+		})
+		function formatCode(data) {
+			if (Array.isArray(data)) {
+				var finalCode = ""
+				var pairs = []
+		
+				const commentSymbol = returnCommentSymbol(docLang)
+				data.forEach((codeArr, idx) => {
+					const code = codeArr[0]
+					var desc = codeArr[1]
+					const descArr = desc.split("\n")
+					var finalDesc = ""
+					descArr.forEach((descLine, idx) => {
+						const whiteSpace = descLine.search(/\S/)
+						if (commentSymbol.length < 2 || idx === 0) {
+							finalDesc += insert(descLine, whiteSpace, commentSymbol[0])
+						}
+						if (commentSymbol.length > 1 && idx === descArr.length - 1) {
+							finalDesc = finalDesc + commentSymbol[1] + "\n"
+						}
+					})
+		
+					finalCode += finalDesc + "\n\n" + code
+					pairs.push(finalCode)
+				})
+				return "\n"+pairs.join("\n")
+			}
+		
+			return "\n"+data
+		}
+		
+		function insert(str, index, value) {
+			return str.substr(0, index) + value + str.substr(index)
+		}
+	</script></body></html>
