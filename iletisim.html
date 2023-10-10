@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        <title>İLETİŞİM</title>
+        
+        <style>
+            header{
+                min-height: 100vh;
+                background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("img/resim1.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                position: fixed;
+            }
+        </style>
+
+    </head>
+    <body>
+
+    <header>
+        <nav class="navbar ">
+            <div class="logo">
+            <a href="index.html"><img src="img/logo.jpg"></a>
+            </div>
+                <ul class="nav1 ">
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="menu.html">Menü</a></li>   
+                </ul>
+                <ul><li class="nav-item"><a href="iletisim.html" class="active">İletişim</a></li></ul>
+          
+    <section id="scase">
+            <div class="content">         
+                <div class="container-1">
+                    <div class="panel konum">
+                        <iframe src="https://www.google.com/maps/d/embed?mid=1WWHk7_L5ioeMtC4pKRbGZ3Fnv0sHJic&ehbc=2E312F" width="400" height="430"></iframe>
+                    </div>
+                    <div class="panel adres">
+                        <div class="box">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3>Adres</h3>
+                            <p>Türkoba, Erguvan Sk. No:26, 34537 Tepekent/İstanbul</p>
+                        </div>
+                        <div class="box box-2">
+                            <i class="fas fa-envelope"></i>
+                            <h3>E-posta</h3>
+                            <p>dolmanazli@gmail.com</p>
+                        </div>
+                        <div class="box">
+                            <i class="fas fa-phone"></i>
+                            <h3>Telefon</h3>
+                            <p>+90 (555) 555 55 55</p>
+                        </div>
+                        <div class="box">
+                            <i class="fa fa-globe"></i>
+                            <h3>www.NDsteakhouse.com</h3>
+                        </div>
+                    </div>
+                    <div class="panel iletisim">
+                        <h2>BİZE ULAŞIN</h2>
+                        <div class="form">
+                            <input class="inputt" type="text" id="txt" placeholder="İsminiz">
+                        </div>
+                        <div class="form">
+                            <input class="inputt" type="number" id="num" placeholder="Numaranız">
+                        </div>
+                        <div class="form">
+                            <input class="inputt" type="email" id="mail" placeholder="Mailinizi Yazınız">
+                        </div>
+                        <div class="form">
+                            <textarea id="mesaj" cols="34" rows="5" placeholder="Mesajınız"></textarea>
+                        </div>
+                        <div class="form">
+                            <button  onclick="ClickEvent()" class="btn-gnd">Gönder</button>
+                        </div>
+                    </div>
+                </div>
+            </div>                   
+        </nav>
+    </section>     
+    </header>
+    
+    <a class="yukari"><i class="fa-solid fa-chevron-up"></i></a>
+
+    <script src="main.js"></script>
+               
+    </body>
+</html>
