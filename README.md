@@ -4,11 +4,12 @@
  
 ## İçindekiler
 
-- [Hakkında](il)
-- [İletişim](#iletişim)
-- [Anasayfa](#anasayfa)
-- [Galeri](#galeri)
-- [Menü](#menü)
+- [Hakkında]((#hakkında))
+- [İletişim]((#iletişim))
+- [Anasayfa]((#anasayfa))
+- [Galeri]((#galeri))
+- [Menü]((#menü))
+
 
 ## Teknolojiler
 
@@ -16,8 +17,6 @@
 - CSS
 - JavaScript
 - Bootstrap
-
-
 
 ## Katkıda Bulunma
 Bu proje her türlü katkıya açıktır. Katkıda bulunmak için şu adımları takip edebilirsiniz:
