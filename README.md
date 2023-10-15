@@ -1,6 +1,6 @@
 ﻿# Restaurant Website (Restoran Web Sitesi)
  Bu proje, Restaurant web sitesi için oluşturulan modern ve şık bir web sitesi şablonudur.
- ![Restaurant Resmi]( )
+ ![Restaurant Resmi](https://github.com/nazli-d/restaurant-website/blob/main/ekran%20%C3%A7%C4%B1kt%C4%B1lar%C4%B1/restaurant.png)
  
 ## İçindekiler
 
