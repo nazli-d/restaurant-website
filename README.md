@@ -2,7 +2,7 @@
  Bu proje, Restaurant web sitesi için oluşturulan modern ve şık bir web sitesi şablonudur.
  ![Restaurant Resmi]( )
  
-## İçerik
+## İçindekiler
 
 - [Hakkında](il)
 - [İletişim](#iletişim)
