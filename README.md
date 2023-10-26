@@ -10,6 +10,25 @@
 - [Galeri]((#galeri))
 - [Menü]((#menü))
 
+## Hakkında
+![hakkında Resmi]()
+
+## İletişim
+
+![iletişim Resmi]()
+
+## Anasayfa
+
+![anasayfa Resmi]()
+
+## Galeri
+
+![Galeri Resmi]()
+
+## Menü
+
+![Menü_Resmi]()
+
 
 ## Teknolojiler
 
