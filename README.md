@@ -10,25 +10,27 @@
 - [Galeri]((#galeri))
 - [Menü]((#menü))
 
-## Hakkında
-![hakkında Resmi]()
-
-## İletişim
-
-![iletişim Resmi]()
+# Ekran-Resimleri
 
 ## Anasayfa
 
-![anasayfa Resmi]()
+<img src="https://github.com/nazli-d/restaurant-website/blob/main/ekran%20%C3%A7%C4%B1kt%C4%B1lar%C4%B1/anasayfa3.png" alt="anasayfa resmi" width="500" height="300"> <img src="https://github.com/nazli-d/restaurant-website/blob/main/ekran%20%C3%A7%C4%B1kt%C4%B1lar%C4%B1/anasayfa4.png" alt="anasayfa resmi" width="500" height="300">
+
+## Hakkımızda 
+
+<img src="https://github.com/nazli-d/restaurant-website/blob/main/ekran%20%C3%A7%C4%B1kt%C4%B1lar%C4%B1/hakk%C4%B1m%C4%B1zda2.png" alt="hakkında sayfası resmi resmi" width="500" height="300"> <img src="https://github.com/nazli-d/restaurant-website/blob/main/ekran%20%C3%A7%C4%B1kt%C4%B1lar%C4%B1/hakk%C4%B1m%C4%B1zda3.png" alt="hakkında sayfası resmi" width="500" height="300">
 
 ## Galeri
 
-![Galeri Resmi]()
+<img src="https://github.com/nazli-d/restaurant-website/blob/main/ekran%20%C3%A7%C4%B1kt%C4%B1lar%C4%B1/galeri1.png" alt="galeri sayfası resmi resmi" width="500" height="300"> <img src="https://github.com/nazli-d/restaurant-website/blob/main/ekran%20%C3%A7%C4%B1kt%C4%B1lar%C4%B1/galeri-2.png" alt="galeri sayfası resmi" width="500" height="300">
 
 ## Menü
 
-![Menü_Resmi]()
+<img src="https://github.com/nazli-d/restaurant-website/blob/main/ekran%20%C3%A7%C4%B1kt%C4%B1lar%C4%B1/men%C3%BC1.png" alt="menü sayfası resmi resmi" width="500" height="300"> <img src="https://github.com/nazli-d/restaurant-website/blob/main/ekran%20%C3%A7%C4%B1kt%C4%B1lar%C4%B1/men%C3%BC2.png" alt="menü sayfası resmi" width="500" height="300">
 
+## İletişim
+
+![Restaurant Resmi](https://github.com/nazli-d/restaurant-website/blob/main/ekran%20%C3%A7%C4%B1kt%C4%B1lar%C4%B1/ileti%C5%9Fim.png)
 
 ## Teknolojiler
 
